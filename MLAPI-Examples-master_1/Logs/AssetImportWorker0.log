@@ -1,0 +1,190 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/MLAPI-Examples-master_1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57426
+Successfully changed project path to: /Users/sai-ithw/Documents/VinhHuynh/Referrences/MLAPI-Examples-master_1
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/MLAPI-Examples-master_1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 28.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/sai-ithw/Documents/VinhHuynh/Referrences/MLAPI-Examples-master_1/Assets
+GfxDevice: creating device client; threaded=0
+2021-06-15 22:09:28.036 Unity[27994:561195] DELL P2217H preferred device: Intel(R) UHD Graphics 630 (low power)
+2021-06-15 22:09:28.036 Unity[27994:561195] Metal devices available: 1
+2021-06-15 22:09:28.036 Unity[27994:561195] 0: Intel(R) UHD Graphics 630 (low power)
+2021-06-15 22:09:28.037 Unity[27994:561195] Using device Intel(R) UHD Graphics 630 (low power)
+Initializing Metal device caps: Intel(R) UHD Graphics 630
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56994
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000444 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 25.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.043 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001001 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.894 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.4 MB.
+System memory in use after: 123.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1909.
+Total: 2.519964 ms (FindLiveObjects: 0.253230 ms CreateObjectMapping: 0.077241 ms MarkObjects: 2.093282 ms  DeleteObjects: 0.094617 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/DemoMLAPI/Sphere.prefab
+  artifactKey: Guid(02e37f97df7ed8d459e06fd7c4e9e5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoMLAPI/Sphere.prefab using Guid(02e37f97df7ed8d459e06fd7c4e9e5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d24d7c8983a35c7cb60f6da994da0d') in 0.487020 seconds
+  Import took 0.489708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/DemoMLAPI/ThirdPersonController.prefab
+  artifactKey: Guid(e76e7324100b55b4884126b83418ebab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoMLAPI/ThirdPersonController.prefab using Guid(e76e7324100b55b4884126b83418ebab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae59dcb65b749e275c35977a5cf07790') in 0.333359 seconds
+  Import took 0.338808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/DemoMLAPI/Cube.prefab
+  artifactKey: Guid(03a297f61fe3ef344989473054d7a493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoMLAPI/Cube.prefab using Guid(03a297f61fe3ef344989473054d7a493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ff5dcfdbdf9080d0e39e4dc1a4f3b4') in 0.005436 seconds
+  Import took 0.007247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/DemoMLAPI/Friction.physicMaterial
+  artifactKey: Guid(96f8ee953b5660d45a3c92595a37d2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoMLAPI/Friction.physicMaterial using Guid(96f8ee953b5660d45a3c92595a37d2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea0fcf91e8996a2db1ad8b7c68cbb7e') in 0.123686 seconds
+  Import took 0.125553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/DemoMLAPI/NetworkManager.prefab
+  artifactKey: Guid(117649d0d14efd6488ff9a6ca6a073a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoMLAPI/NetworkManager.prefab using Guid(117649d0d14efd6488ff9a6ca6a073a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd325db82160f27be57612e75d7735974') in 0.030980 seconds
+  Import took 0.032997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.319840 seconds.
+  path: Assets/DemoMLAPI/MenuScene.unity
+  artifactKey: Guid(28dbebe693232354c9c01f31c4f4588d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoMLAPI/MenuScene.unity using Guid(28dbebe693232354c9c01f31c4f4588d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39042697cdd6f116a7fd9cdb228107ce') in 0.005655 seconds
+  Import took 0.007766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011024 seconds.
+  path: Assets/DemoMLAPI/MenuScene.unity
+  artifactKey: Guid(28dbebe693232354c9c01f31c4f4588d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoMLAPI/MenuScene.unity using Guid(28dbebe693232354c9c01f31c4f4588d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39042697cdd6f116a7fd9cdb228107ce') in 0.000839 seconds
+  Import took 0.002802 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000984 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.4 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 1924.
+Total: 2.508053 ms (FindLiveObjects: 0.318442 ms CreateObjectMapping: 0.102643 ms MarkObjects: 2.057943 ms  DeleteObjects: 0.025129 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.267286 seconds.
+  path: Assets/DemoMLAPI/SyncPosition.cs
+  artifactKey: Guid(5d9ccecb240e5b84fadd660cc985dad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoMLAPI/SyncPosition.cs using Guid(5d9ccecb240e5b84fadd660cc985dad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08136bbced411b955eb65f3d09fb42ff') in 0.261119 seconds
+  Import took 0.263264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.186432 seconds.
+  path: Assets/DemoMLAPI/ServerSyncPosition.cs
+  artifactKey: Guid(519806024fb47df488366d611b367041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoMLAPI/ServerSyncPosition.cs using Guid(519806024fb47df488366d611b367041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4d96adaaf11c4a61703d82d11e44dd') in 0.002966 seconds
+  Import took 0.005281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001050 seconds.
+  path: Assets/DemoMLAPI/ServerSyncPosition.cs
+  artifactKey: Guid(519806024fb47df488366d611b367041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoMLAPI/ServerSyncPosition.cs using Guid(519806024fb47df488366d611b367041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4d96adaaf11c4a61703d82d11e44dd') in 0.002691 seconds
+  Import took 0.004481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.880441 seconds.
+  path: Assets/DemoMLAPI/Standard Assets
+  artifactKey: Guid(6d704927e34daab4591db30d92a7ba51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoMLAPI/Standard Assets using Guid(6d704927e34daab4591db30d92a7ba51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d297c3decb1f653474d69a22b7d41a') in 0.000859 seconds
+  Import took 0.003057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/DemoMLAPI/Standard Assets
+  artifactKey: Guid(6d704927e34daab4591db30d92a7ba51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemoMLAPI/Standard Assets using Guid(6d704927e34daab4591db30d92a7ba51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d297c3decb1f653474d69a22b7d41a') in 0.000564 seconds
+  Import took 0.001985 seconds .
+

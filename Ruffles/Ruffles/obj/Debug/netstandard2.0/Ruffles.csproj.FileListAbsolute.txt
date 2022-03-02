@@ -1,0 +1,10 @@
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/bin/Debug/netstandard2.0/Ruffles.deps.json
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/bin/Debug/netstandard2.0/Ruffles.dll
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/bin/Debug/netstandard2.0/Ruffles.pdb
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/obj/Debug/netstandard2.0/Ruffles.csproj.AssemblyReference.cache
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/obj/Debug/netstandard2.0/Ruffles.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/obj/Debug/netstandard2.0/Ruffles.AssemblyInfoInputs.cache
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/obj/Debug/netstandard2.0/Ruffles.AssemblyInfo.cs
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/obj/Debug/netstandard2.0/Ruffles.csproj.CoreCompileInputs.cache
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/obj/Debug/netstandard2.0/Ruffles.dll
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/obj/Debug/netstandard2.0/Ruffles.pdb

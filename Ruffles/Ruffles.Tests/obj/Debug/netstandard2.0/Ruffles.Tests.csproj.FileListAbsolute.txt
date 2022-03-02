@@ -1,0 +1,13 @@
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles.Tests/bin/Debug/netstandard2.0/Ruffles.Tests.deps.json
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles.Tests/bin/Debug/netstandard2.0/Ruffles.Tests.dll
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles.Tests/bin/Debug/netstandard2.0/Ruffles.Tests.pdb
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles.Tests/bin/Debug/netstandard2.0/Ruffles.dll
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles.Tests/bin/Debug/netstandard2.0/Ruffles.pdb
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles.Tests/obj/Debug/netstandard2.0/Ruffles.Tests.csproj.AssemblyReference.cache
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles.Tests/obj/Debug/netstandard2.0/Ruffles.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles.Tests/obj/Debug/netstandard2.0/Ruffles.Tests.AssemblyInfoInputs.cache
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles.Tests/obj/Debug/netstandard2.0/Ruffles.Tests.AssemblyInfo.cs
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles.Tests/obj/Debug/netstandard2.0/Ruffles.Tests.csproj.CoreCompileInputs.cache
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles.Tests/obj/Debug/netstandard2.0/Ruffles.Tests.csproj.CopyComplete
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles.Tests/obj/Debug/netstandard2.0/Ruffles.Tests.dll
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles.Tests/obj/Debug/netstandard2.0/Ruffles.Tests.pdb

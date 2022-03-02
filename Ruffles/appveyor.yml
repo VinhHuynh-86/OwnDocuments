@@ -1,0 +1,58 @@
+version: '{branch}-{build}'
+
+image: Visual Studio 2017
+
+environment:
+  nuget_key:
+    secure: EL8Nm3zdLDGQ/nWbP6zZIgCA4k1yJRqmDw4qpK/LYzyl0YebTX1iREmEdUnO0KBS
+  nodejs_version: "10"
+
+configuration:
+  - Release
+
+branches:
+  only:
+    - master
+
+skip_tags: true
+
+before_build:
+  - nuget restore
+
+build:
+  project: Ruffles.sln
+  verbosity: minimal
+
+after_build:
+  - 7z a net35.zip %APPVEYOR_BUILD_FOLDER%\Ruffles\bin\Release\net35\*
+  - 7z a net45.zip %APPVEYOR_BUILD_FOLDER%\Ruffles\bin\Release\net45\*
+  - 7z a net471.zip %APPVEYOR_BUILD_FOLDER%\Ruffles\bin\Release\net471\*
+  - 7z a netcoreapp20.zip %APPVEYOR_BUILD_FOLDER%\Ruffles\bin\Release\netcoreapp2.0\*
+  - 7z a netstandard20.zip %APPVEYOR_BUILD_FOLDER%\Ruffles\bin\Release\netstandard2.0\*
+
+cache:
+- '%APPDATA%\npm'
+
+install:
+- ps: Install-Product node $env:nodejs_version
+- npm install -g semantic-release@17
+- npm install -g @semantic-release/github -D
+- npm install -g @semantic-release/exec -D
+- semantic-release --dry-run
+
+before_deploy:
+  - powershell "& "".\package-nuget.ps1"""
+
+artifacts:
+- path: '*net*.zip'
+
+deploy:
+  provider: NuGet
+  api_key:
+    secure: EL8Nm3zdLDGQ/nWbP6zZIgCA4k1yJRqmDw4qpK/LYzyl0YebTX1iREmEdUnO0KBS
+  skip_symbols: false
+  artifact: '*.nupkg'
+
+
+deploy_script:
+- semantic-release

@@ -1,0 +1,36 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fmodern\fcharset0 Courier;\f2\froman\fcharset0 Times-Roman;
+}
+{\colortbl;\red255\green255\blue255;\red15\green112\blue1;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c50196\c0;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww14200\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 https://www.wikihow.com/Run-Linux-on-a-Mac\cf0 \
+https://medium.com/macoclock/share-folder-between-macos-and-ubuntu-4ce84fb5c1ad\
+https://forum.unity.com/threads/how-can-i-view-the-console-output-for-a-game-running-on-a-remote-linux-server.741893/\
+
+\f1\fs26\fsmilli13333 \cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl320\partightenfactor0
+\ls1\ilvl0\cf2 {\listtext	1.	}\
+{\listtext	2.	}cd /home/ec2-user/jurassic-gl-aaf-bot/\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl320\partightenfactor0
+\ls1\ilvl0\cf3 {\listtext	3.	}./AAF_Bot.x86_64 -logFile ./myLogFile > ./currentoutput.txt\cf2 \
+{\listtext	4.	}\
+{\listtext	5.	}ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head\
+{\listtext	6.	}\
+\ls1\ilvl0\cf3 {\listtext	7.	}1 Share folder to VM\
+{\listtext	8.	}- Create MACOS_Shared\
+{\listtext	9.	}~$ sudo mount -t vboxsf AAF_Linux_Client_Bot /home/vinh/MACOS_Shared\
+{\listtext	10.	}\
+{\listtext	11.	}2. cd /home/vinh/Documents/AAF\
+{\listtext	12.	}\
+{\listtext	13.	}3. ./AAF_Bot.x86_64 -logFile ./myLogFile > ./currentoutput.txt\
+{\listtext	14.	} 
+\f2\fs26 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 sudo sh ./startup.sh\
+\ls1\ilvl0
+\f1\fs26\fsmilli13333 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	15.	}\
+}

@@ -1,0 +1,1080 @@
+0/ Training link to refer
+https://confluence.gameloft.org/pages/viewpage.action?spaceKey=SPTRN&title=%5BPractice%5D+Git+-+Getting+started
+
+https://www.youtube.com/watch?v=W_fAidYRGzs&t=217s
+
+https://download.microsoft.com/download/9/0/1/901B684B-659E-4CBD-BEC8-B3F06967C2E7/NDP471-DevPack-ENU.exe
+
+https://docs.unity3d.com/Manual/CollidersOverview.html
+
+https://docs.unity3d.com/Manual/CameraRays.html
+
+http://tongtunggiang.com/blog/2017/09/19/simple-object-pool-better-performance-games/
+
+https://www.raywenderlich.com/138-introduction-to-unity-particle-systems
+
+http://glennmurphy.weebly.com/fire-particle-tutorial.html
+
+https://www.youtube.com/watch?v=Gx9gZ9cfrys
+
+https://docs.unity3d.com/Manual/UICanvas.html
+
+https://docs.unity3d.com/Manual/ExecutionOrder.html
+
+https://www.youtube.com/watch?v=Gx9gZ9cfrys
+
+
+I/
+https://code.visualstudio.com/download
+
+https://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-
+-> https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net471-developer-pack-offline-installer
+or https://download.microsoft.com/download/9/0/1/901B684B-659E-4CBD-BEC8-B3F06967C2E7/NDP471-DevPack-ENU.exe
+
+II/
+https://www.youtube.com/watch?v=Hsg_rwz5S2Q
+Setup
+1. Edit -> Preferences -> External tool -> External script editor "visual studio code"
+2. Extension
+	-	C# for visual studio code
+	-	Debugger for Unity
+	-	Unity code snippets
+
+III/
+
+Mô hình PBR là gì ?
+	Physically Based Rendering là shader mô phỏng dựa trên giá trị thực tế ngoài đời, làm cho nó chuẩn xác và ổn định dưới các điều kiện ánh sáng. Đó là loại công nghệ đã giúp các video game AAA cất cánh và các chất lượng render cao cấp hơn. 
+	https://lamphimquangcao.tv/mo-hinh-pbr-la-gi/
+
+blender principled node
+	https://blendervn.org/t/doi-net-ve-blender-principled-node/373
+
+Universal render pipeline
+	https://blogs.unity3d.com/2019/09/20/how-the-lightweight-render-pipeline-is-evolving/
+	// detail info. It's useful to improve performance
+	https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.1/manual/universalrp-asset.html
+
+Create Fresnel effect
+	https://www.youtube.com/watch?v=caBUxzTaBwk
+	http://jayanam.com/unity-2019-shader-graph-tutorial-getting-started/
+
+Dissolve Effect
+	https://www.youtube.com/watch?v=gYGZlIjEs7E
+	https://www.youtube.com/watch?v=taMp1g1pBeE
+
+Texture Transition
+	https://www.youtube.com/watch?v=OakD6vLj4uo
+
+
+Shader Graph Error - The Current render Pipeline is not compatible with this master node
+	https://answers.unity.com/questions/1535235/shader-graph-error-the-current-render-pipeline-is.html
+	After installing all of the above you need to create a rendering profile. Right-click in the "Project" window than Create --> Rendering --> Lightweight Pipeline Asset, it is like your profile.
+	After that go to go to Edit --> Project Settings --> Graphics and then in Scriptable Render Pipeline Settings chose the Lightweight Pipeline Asset that you have created earlier on in your "Project" window.
+
+Enabled Lightweight Render Pipeline, now everything is either pink or grey
+	You need to upgrade all the materials to use LWRP specific shaders as well.
+	https://docs.unity3d.com/Packages/com.unity.render-pipelines.lightweight@5.3/manual/upgrading-your-shaders.html?_ga=2.103759747.209078937.1585111125-1217545447.1585111125
+	To upgrade built-in shaders:
+		Open your Project in Unity, and go to Edit > Render Pipeline.
+		According to your needs, select either Upgrade Project Materials to Lightweight RP Materials or Upgrade Scene Materials to Lightweight RP Materials.
+		Note: These changes cannot be undone. Backup your Project before you upgrade it.
+
+
+
+
+https://killertee.wordpress.com/2018/02/28/experiments-with-unity-shader-graph-and-scriptable-render-pipeline/
+
+	1) Download the new Lightweight Render Pipeline from the Package Manager
+
+	2) Right Click in the asset folder and Create -> Rendering -> Lightweight pipeline asset-> name it anything.
+
+	3) Goto Edit -> Project Settings -> Graphics then Drag and dop the Pipeline asset you created onto the Scriptable Render Pipeline Settings (1st item).
+
+
+The Graphics API preference order can be overridden in the Player Settings (Edit > Project Settings > Player). Select the platform from the tabs at the top (active build target is selected by default). You can then deselect Auto Graphics API and choose which Graphics APIs should be supported for your game. The preference order is from top to bottom.
+	https://support.unity3d.com/hc/en-us/articles/209004446-How-do-I-change-the-supported-Graphics-APIs-for-my-game-
+	Color space : Gamma
+	Auto Graphis API for Window (must be check)
+
+	Color space : Linear
+	Auto Graphis API for Window (must be uncheck)
+	[requires opengl es 3.0 or vulkan. Uncheck 'automatic API' and remove OpenGL es 2 API]
+
+base camera and ovelay camera
+	https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.2/manual/camera-types-and-render-type.html
+Adding the same Overlay Camera to multiple stacks
+	https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.2/manual/camera-stacking.html
+	https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@7.2/api/UnityEngine.Rendering.Universal.UniversalAdditionalCameraData.html
+
+setting anti alias in Universal PR
+	https://stackoverflow.com/questions/53747001/how-do-i-enable-antialiasing-in-unity
+	https://forum.unity.com/threads/cant-seem-to-enable-anti-aliasing.467226/
+	
+
+IV/
+How to make the equivalent of a 9-slice for a 3D mesh (Unity and Blender)
+	https://www.youtube.com/watch?v=ExNRbEjVT-8
+	
+Capsule Collider	
+	https://docs.unity3d.com/Manual/class-CapsuleCollider.html
+	
+V/	SAVE & LOAD SYSTEM in Unity (binary)
+	https://www.youtube.com/watch?v=XOjd_qU2Ido
+
+Assets
+	https://clip.cookdiary.net/pipe-clipart
+	https://www.turbosquid.com/Search/Index.cfm?FuseAction=SEOTokenizeSearchURL&stgURlFragment=3D-Models/free/pipe
+	https://www.turbosquid.com/3d-models/90-elbow-inventor-3ds-free/405186
+	https://www.turbosquid.com/3d-models/free-mode-pipe-construction/213432
+	https://www.google.com/imgres?imgurl=http%3A%2F%2Fm.plonga.com%2Fuploads%2Fthumbs%2Fflow-mania-mobile.jpg&imgrefurl=http%3A%2F%2Fm.plonga.com%2Fteaser%2FFlow-Mania-Mobile-Game&docid=QPvD2owwJKUqtM&tbnid=OdpAgzINskz4GM%3A&vet=1&w=240&h=240&itg=1&bih=754&biw=1536&ved=2ahUKEwj30sy53LzoAhULEqYKHYGtBZIQxiAoBHoECAEQIg&iact=c&ictx=1
+
+
+V/ SAVE and LOAD system binary in Unity
+	https://www.youtube.com/watch?v=XOjd_qU2Ido
+	https://stackoverflow.com/questions/34426570/best-way-to-save-data-in-unity-game
+	
+	Saving Data With JSON
+	https://www.raywenderlich.com/418-how-to-save-and-load-a-game-in-unity
+	https://medium.com/@prasetion/saving-data-as-json-in-unity-4419042d1334
+	https://forum.unity.com/threads/serialize-nested-objects-with-jsonutility.737624/
+	https://stackoverflow.com/questions/38390274/unity-c-how-to-convert-an-array-of-a-class-into-json
+	https://forum.unity.com/threads/saving-json-data-of-objects-in-an-array-in-a-single-json-file.529250/
+	
+	How to encrypt a variable before storing it in the device via PlayerPrefs?
+	https://answers.unity.com/questions/665593/how-to-encrypt-a-variable-before-storing-it-in-the.html
+	
+	*** encrypt/decrypt for all content of save file . With 256-AES (32byte) key, UTF8Encoding.UTF8, using Base64String
+	https://stackoverflow.com/questions/38649459/encryption-in-unity-c-sharp
+	Random keygen:
+	https://randomkeygen.com/
+	https://stackoverflow.com/questions/21160258/golang-generating-a-32-byte-key
+	
+	
+VI/ CINEMACHINE, VIRTUAL CAMERA, TRACK
+	
+	- Third Person Camera System using Cinemachine in Unity
+	https://www.youtube.com/watch?v=J1GgvDfmIo0
+	- How to Blend/Switch Between Cinemachine Cameras
+	https://www.youtube.com/watch?v=Ri8PEbD4w8A
+	- MULTIPLE TARGET CAMERA in Unity
+	https://www.youtube.com/watch?v=aLpixrPvlB8
+	
+	- The Fast Way to Code C# and Setup Animations in Unity. Blend tree
+	https://www.youtube.com/watch?v=5ozKp5qC4aA
+	
+	- ACtivation track
+	 https://learn.unity.com/tutorial/working-with-activation-tracks#
+	 
+	- Timeline
+	 https://learn.unity.com/tutorial/timeline#
+	 
+	- *** Unity Timeline Scripting - Custom Playables, Tracks and Clips
+	 https://www.youtube.com/watch?v=LSrcQJHDUT4
+	 
+	DirectorUpdateMode.Manual
+	Update mode is manual. You need to manually call PlayableGraph.Evaluate with your own deltaTime. This can be useful for graphs that are completely disconnected from the rest of the game. For example, localized bullet time.
+	
+	public void MyPause()
+    {
+        canUpdate = false;
+        playableDirector.Pause();
+    }
+
+    public void MyResume()
+    {
+        playableDirector.Resume();
+        canUpdate = true;
+    }
+    public void MyReset()
+    {
+        playableDirector.Stop();
+        playableDirector.time = 0;
+        playableDirector.Play();
+        canUpdate = true;
+    }
+
+    public void MyStop()
+    {
+        canUpdate = false;
+        playableDirector.Stop();
+        playableDirector.time = 0;
+    }
+	
+	public void UpdateTime(float time)
+    {
+        //https://docs.unity3d.com/ScriptReference/Playables.DirectorUpdateMode.Manual.html
+        //DirectorUpdateMode.Manual
+        //Update mode is manual. You need to manually call PlayableGraph.Evaluate with your own deltaTime. This can be useful for graphs that are completely disconnected from the rest of the game. For example, localized bullet time.
+
+        if(canUpdate)
+        {
+            playableDirector.playableGraph.Evaluate(time - (float)playableDirector.time);
+            playableDirector.time = time;
+        }
+    }
+
+
+VII/ Localization
+	https://assetstore.unity.com/packages/tools/localization/lean-localization-28504
+	
+	
+VIII/ Doozy library
+	http://doozyui.com/uibutton/
+	https://www.youtube.com/watch?v=is1C67fWy54
+	http://doozyui.com/scene-loader/
+	
+	
+IX/ How to use a Custom Font with Text Mesh Pro in Unity
+	https://www.youtube.com/watch?v=nBcP7FaDPE0
+	
+	
+X/ Profiling in the Unity Editor
+	https://docs.unity3d.com/Manual/profiler-profiling-applications.html
+	
+XI/ Optimization
+	https://gamedevelopertips.com/increase-performance-in-unity-games/
+	https://makaka.org/unity-tutorials/optimization
+	https://www.habrador.com/tutorials/unity-optimization/
+	https://www.youtube.com/watch?v=j4YAY36xjwE
+	https://docs.unity3d.com/Manual/BestPracticeUnderstandingPerformanceInUnity.html
+	https://cgcookie.com/articles/maximizing-your-unity-games-performance
+	https://learn.unity.com/tutorial/fixing-performance-problems#5c7f8528edbc2a002053b595
+	
+XII/ Use custom vibrations on mobile with this native Plugin for Unity (Android & iOS) 
+	https://github.com/BenoitFreslon/Vibration
+	
+	
+XIII/ Depth of field
+	https://www.youtube.com/watch?v=V5kAXspkaBw
+	https://docs.unity3d.com/2018.1/Documentation/Manual/PostProcessing-DepthOfField.html
+	https://docs.unity3d.com/550/Documentation/Manual/script-DepthOfField.html
+	https://stackoverflow.com/questions/59188747/how-to-create-blur-effect-to-all-the-scene-except-for-one-object-focus-on-that
+	https://forum.unity.com/threads/depth-of-field-control-please-for-the-love-of-god.484012/
+	https://docs.unity3d.com/Manual/PostProcessing-DepthOfField.html
+	https://docs.unity3d.com/Packages/com.unity.postprocessing@2.1/manual/Depth-of-Field.html
+	http://pixelfactory.vn/hieu-ve-khau-f-stop-va-t-stop.html#:~:text=M%E1%BB%99t%20f%2Dstop%20l%C3%A0%20g%C3%AC,s%E1%BA%BD%20%C4%91%C6%B0%E1%BB%A3c%20l%E1%BB%8Dt%20qua%20lens.
+	
+	Create Dissolve Effect using Standard Material in Unity
+	https://medium.com/@sylphbox/create-dissolve-effect-using-standard-material-in-unity-85faf95006c7
+	https://catlikecoding.com/unity/tutorials/scriptable-render-pipeline/transparency/
+	
+	
+XIV/ Creating Animation Layers and Masks
+	https://www.youtube.com/watch?v=-SAnr8-Xfgg&feature=youtu.be&t=435
+	https://docs.unity3d.com/Manual/AnimationLayers.html
+	
+XV/ Game Option / Profiling
+	Serialize and Deserialize Json and Json Array in Unity
+	https://stackoverflow.com/questions/36239705/serialize-and-deserialize-json-and-json-array-in-unity
+	
+	SimpleJSON
+	http://wiki.unity3d.com/index.php/SimpleJSON
+	source https://github.com/Bunny83/SimpleJSON
+	
+	
+XVI/ How to use Timeline Signals
+	https://blogs.unity3d.com/2019/05/21/how-to-use-timeline-signals/
+	Demo : https://github.com/Unity-Technologies/TimelineSignalsTutorial
+	
+	
+
+
+	
+https://raywenderlich.auth0.com/
+Vinh
+Zxcvbnm,./123
+
+
+https://id.photonengine.com/
+vinhhuynh.it@gmail.com
+Zxcvbnm,./123
+
+https://vinhhuynh/aaf/pun_realtime
+AAF_Realtime
+Realtime App ID : 76c114e8-e462-4b2f-a67b-38acd2dc7d97
+
+https://vinhhuynh/aaf/pun
+AAF
+PUN App ID : 6dff5806-fd42-4685-96a4-8577e7f1505e
+
+
+XVII/ A* Pathfinding Project
+https://arongranberg.com/astar/download
+https://arongranberg.com/astar/docs_dev/graph_types.php#navmesh
+https://arongranberg.com/astar/documentation/dev_4_1_5_3cb9f189/create-navmesh.php
+
+AUTOMATIC NAVIGATION MESH GENERATION IN CONFIGURATION SPACE
+https://accu.org/journals/overload/21/117/golodetz_1838/
+https://9631ec60-a-62cb3a1a-s-sites.googlegroups.com/site/recastnavigation/MikkoMononen_RecastSlides.pdf?attachauth=ANoY7cqYYARvoQlBQi1Rj9ATBNIAbSiBwFLGTGmFd9Z8smgrEmMqgTihvYsmUdr6G3xZ_ngHKzizVI1OwNOrm9x-fdbR_QAdBQgyh8JRf3EiBJ4RQ3bpmDcJz510Ayrd9uMNQPTrXsQ12lYT38Y_5epQ75qBsbUDHBkrXn6QxHBpcxz9wjPxDWQwOLfgOlvHBoivEHWXa_MV2x_CxgqD7MdYC8Dz1j6jx23I7PbTOluawpEatmpVazM%3D&attredirects=2
+
+	Nav mesh :
+	https://www.youtube.com/watch?v=FkLJ45Pt-mY&vl=en
+	https://www.youtube.com/watch?v=5q4JHuJAAcQ
+	https://www.youtube.com/watch?v=D9ANcYInpkM
+	
+* If you want a NavMesh Agent to push around physics objects or use physics triggers:
+Add a Collider component (if not present)
+Add Rigidbody component
+Turn on kinematic (Is Kinematic) - this is important!
+
+* Kinematic means that the rigid body is controlled by something else than the physics simulation
+If both NavMesh Agent and Rigidbody (non-kinematic) are active at the same time, you have race condition
+Both components may try to move the agent at the same which leads to undefined behavior
+
+https://docs.unity3d.com/Manual/nav-MixingComponents.html
+
+	-	A_Start_PathFinding
+	-	MyPathFinding_Editor
+	-	MyPathFinding_NoEditor
+
+XVII/ Photon
+
+vinhhuynh.it@gmail.com
+Zxcvbnm,./123
+
+https://www.raywenderlich.com/1142814-introduction-to-multiplayer-games-with-unity-and-photon
+
+https://dashboard.photonengine.com/en-US
+https://doc.photonengine.com/en-us/pun/v2/getting-started/initial-setup
+https://doc.photonengine.com/en-us/realtime/current/lobby-and-matchmaking/matchmaking-and-lobby
+https://answers.unity.com/questions/1562217/how-to-list-rooms-pun-2.html
+https://doc-api.photonengine.com/en/pun/v2/interface_photon_1_1_realtime_1_1_i_lobby_callbacks.html#a1d8cec95ef5f4f7e7e27428154b617a9
+
+
+
+***
+https://doc.photonengine.com/en-us/pun/v2/getting-started/initial-setup
+https://doc.photonengine.com/en-us/realtime/current/lobby-and-matchmaking/matchmaking-and-lobby
+https://doc-api.photonengine.com/en/pun/v2/interface_photon_1_1_realtime_1_1_i_lobby_callbacks.html#a1d8cec95ef5f4f7e7e27428154b617a9
+https://doc-api.photonengine.com/en/pun/v2/class_photon_1_1_realtime_1_1_room_info.html
+
+RPC : Remote Procedure Calls
+
+https://doc.photonengine.com/en-us/pun/v1/getting-started/feature-overview
+https://documentation.help/Photon-Unity-Networking-2/class_photon_1_1_realtime_1_1_room_options.html
+
+- float PhotonNetwork.BackgroundTimeout = 60.0f
+- Application.runInBackground
+- 
+
+*** Interrupt
+
+https://doc-api.photonengine.com/en/pun/v1/class_photon_network.html
+PhotonNetwork.BackgroundTimeout
+
+Note: Some platforms (e.g. iOS) don't allow to keep a connection while the app is in background. In those cases, this value does not change anything, the app immediately loses connection in background.
+
+
+https://docs.unity3d.com/ScriptReference/Application-dataPath.html
+
+
+
+XVII/ QR Code
+https://viblo.asia/p/huong-dan-tao-app-quet-ma-qr-bang-unity-oOVlYNDV58W
+https://adriannenu.medium.com/reading-and-generating-qr-codes-with-c-in-unity-3d-the-easy-way-a25e1d85ba51
+https://stackoverflow.com/questions/35968995/how-to-display-webcamtexture-as-full-screen-on-android-portrait-mode
+https://docs.unity3d.com/ScriptReference/Application.RequestUserAuthorization.html
+
+*** Learning Machine
+https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw
+https://www.youtube.com/watch?v=26uABexmOX4&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y
+
+
+Request user authorization permission
+Android:
+	https://gamedev.stackexchange.com/questions/175751/how-to-get-android-permission-call-back-in-unity
+	
+	
+https://www.oracle.com/
+vinhhuynh.it@gmail.com
+Zxcvbnm,.123
+
+
+XVIII/ Native/Video/Permission/Access
+
+Integrating Native Android Code in Unity
+https://unicorn-utterances.com/posts/integrating-android-code-in-unity/
+https://github.com/googlesamples/unity-jar-resolver/
+https://github.com/googlesamples/unity-jar-resolver/releases
+
+How to manage your native iOS and Android dependencies in Unity
+https://medium.com/firebase-developers/how-to-manage-your-native-ios-and-android-dependencies-in-unity-like-firebase-921659843aef
+
+https://habibur-rahman-ovie.medium.com/unity-native-ios-plugin-bridge-between-swift-and-unity3d-d88861d0f456
+https://viblo.asia/p/su-dung-swift-code-trong-project-unity-naQZRJmQZvx
+https://infinum.com/handbook/books/ios/miscellaneous/swift-objective-c-interoperability-and-best-practices
+https://github.com/oviebd/Unitty-SwiftCommunication
+https://docs.unity3d.com/Manual/PluginsForIOS.html?_ga=2.152623098.2111527632.1616413726-541523600.1616055746	
+
+https://developer.apple.com/library/archive/qa/qa1937/_index.html
+https://www.hackingwithswift.com/articles/114/objective-c-to-swift-conversion-cheat-sheet
+
+
+*** Permission
+	H:\Vinhhuynh\Projects\ScreenRecorder_On_Android\applaydu_and_friends
+
+*** ANDROID
+	Create Android project https://developer.android.com/training/basics/firstapp/creating-project
+
+	Create an Android library, module
+	https://developer.android.com/studio/projects/android-library
+	https://www.vogella.com/tutorials/AndroidLibraryProjects/article.html
+
+	Adding external library in Android studio
+	https://stackoverflow.com/questions/25610727/adding-external-library-in-android-studio
+
+	createScreenCaptureIntent ()
+	Returns an Intent that must be passed to startActivityForResult() in order to start screen capture. The activity will prompt the user whether to allow screen capture. The result of this activity should be passed to getMediaProjection.
+	https://developer.android.com/reference/android/media/projection/MediaProjectionManager
+
+	How to request WRITE_EXTERNAL_STORAGE permissions in a fragment
+	The highest API level at which this permission should be granted to your app. Setting this attribute is useful if the permission your app requires is no longer needed beginning at a certain API level.
+	For example, beginning with Android 4.4 (API level 19), it's no longer necessary for your app to request the WRITE_EXTERNAL_STORAGE permission when your app wants to write to its own application-specific directories on external storage (the directories provided by getExternalFilesDir()). However, the permission is required for API level 18 and lower. So you can declare that this permission is needed only up to API level 18 with a declaration such as this:
+
+	@Override
+	public void init(Context context) {
+	  mApplicationDirectory = context.getExternalFilesDir(null);
+	}
+
+	<uses-permission
+		 android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+		 android:maxSdkVersion="18" />
+	This way, beginning with API level 19, the system will no longer grant your app the WRITE_EXTERNAL_STORAGE permission.
+
+	run time permissions
+	https://github.com/Karumi/Dexter
+
+	Six ways to initiate tasks on another thread
+	https://markheath.net/post/starting-threads-in-dotnet
+	Task Parallel Library (TPL) and async await : OK
+
+
+		-	Native permission:	https://github.com/yasirkula/UnityNativeCamera
+
+		-	VinhRecorder:	http://mattsnider.com/video-recording-with-mediaprojectionmanager/
+					https://github.com/saki4510t/AudioVideoRecordingSample/blob/master/app/src/main/java/com/serenegiant/encoder/MediaAudioEncoder.java
+					
+	https://github.com/google/grafika
+	https://github.com/google/grafika/blob/master/app/src/main/java/com/android/grafika/VideoEncoderCore.java
+
+	https://viblo.asia/p/quay-man-hinh-android-don-gian-voi-mediarecorder-va-mediaprojection-Az45bYWNlxY
+	https://www.truiton.com/2015/05/capture-record-android-screen-using-mediaprojection-apis/
+
+
+		-	VinhScreenCapture_V1
+		-	VinhScreenCapture_V2
+		-	ScreenRecorder_On_Android
+		-	ScreenCapture-master : https://github.com/Truiton/ScreenCapture
+
+	
+*** iOS
+
+	https://github.com/rudrajikadra/Audio-Recording-Screen-Recording-iOS-Application-Xcode
+
+	Object-C vs Swift:	https://www.altexsoft.com/blog/engineering/swift-vs-objective-c-out-with-the-old-in-with-the-new/
+
+	Objective-C to Swift conversion cheat sheet:	https://www.hackingwithswift.com/articles/114/objective-c-to-swift-conversion-cheat-sheet
+		
+	Swift Language Guide:	https://docs.swift.org/swift-book/LanguageGuide/Functions.html
+	Objective-C Language:	https://www.hackingwithswift.com/articles/114/objective-c-to-swift-conversion-cheat-sheet
+
+		-	Setup to use swift from object-C:
+			https://pinkstone.co.uk/how-to-use-swift-classes-in-objective-c/
+			https://medium.com/ios-os-x-development/swift-and-objective-c-interoperability-2add8e6d6887
+			
+		-	SwiftObjectiveC:
+			Compatible with Objective-C Swift Code:	https://lazarevzubov.medium.com/compatible-with-objective-c-swift-code-e7c3239d949
+			
+		Example :
+		.Swift file
+			import Foundation
+			import UIKit
+			import ReplayKit
+
+			//@objcMembers public class MyClass: UIViewController {
+			@objc public class MyClass: UIViewController {
+
+				@objc public let recorder = RPScreenRecorder.shared()
+
+				@objc public var isRecording: Bool = false;
+
+
+				public override func viewDidLoad() {
+					super.viewDidLoad();
+				}
+				
+				@objc public func RecordScreen() {
+					if isRecording {
+						isRecording = false;
+						StopCapture();
+					}
+					else {
+						isRecording = true;
+						StartCapture()
+					}
+				}
+				
+				@objc public func RecordScreen(isRecord:Bool) {
+					if isRecording {
+						isRecording = false;
+						StopCapture();
+					}
+					else {
+						isRecording = true;
+						StartCapture()
+					}
+				}
+
+				@objc public func StartCapture() {
+						recorder.isMicrophoneEnabled = true
+						recorder.startRecording(handler: { (error) in
+							if let error = error {
+								print(error)
+							}
+						})
+				}
+				@objc public func StopCapture() {
+						recorder.isMicrophoneEnabled = false
+						recorder.stopRecording(handler: { (previewVC, error) in
+							if let previewVC = previewVC {
+								previewVC.previewControllerDelegate = self
+								self.present(previewVC, animated: true, completion: nil)
+							}
+							
+							if let error = error {
+								print(error)
+							}
+						})
+				}
+				
+				@objc public func sayHello() -> Void {
+						print("hello");
+					}
+
+			}
+
+			extension MyClass: RPPreviewViewControllerDelegate {
+				public func previewControllerDidFinish(_ previewController: RPPreviewViewController) {
+					dismiss(animated: true, completion: nil)
+				}
+			}
+			
+		.h file
+		#import <UIKit/UIKit.h>
+		#import "SwiftObjectiveC-Swift.h"
+
+		@interface ViewController : UIViewController
+
+		@property (nonatomic, strong) MyClass* mclass;
+
+		@end
+
+		.m/.mm file
+		#import "ViewController.h"
+		#import "SwiftObjectiveC-Swift.h"
+
+		@interface ViewController ()
+
+		@end
+
+		@implementation ViewController
+
+
+
+		- (void)testFunc {
+			// Do any additional setup after loading the view.
+			
+			_mclass = [[MyClass alloc]init];
+			_mclass.view.backgroundColor = [UIColor purpleColor];
+			[_mclass viewDidLoad];
+			_mclass.isRecording = false;
+			[_mclass RecordScreen];
+			[_mclass RecordScreenWithIsRecord:YES];
+		}
+		@end
+
+	Unity Integration in Native iOS & APIs:
+	Unity Integration in iOS with Objective C language
+	Unity Integration in iOS with Swift language.
+	https://docs.unity3d.com/Manual/PluginsForIOS.html
+	https://docs.unity3d.com/Manual/UnityasaLibrary-iOS.html
+	https://medium.com/flawless-app-stories/unity-integration-in-native-ios-b5e2ea501477
+	https://medium.com/@rolir00li/integrating-native-ios-code-into-unity-e844a6131c21
+		
+	HowTo: native iOS plugins for Unity3D https://twnkls.com/en/blogs/howto-native-ios-plugins-for-unity3d-2/
+
+
+XIX/ Get data/data
+	https://stackoverflow.com/questions/13006315/how-to-access-data-data-folder-in-android-device
+	
+	1.	adb pull data/data/com.umusic.queenrocktourgp ./MyFolder
+	
+	If "permission denied"
+	
+	2.	adb shell run-as com.umusic.queenrocktourgp cat files > ./MyFolder
+	
+	If "Accessis denied" or "run-as: package not debuggable: com.umusic.queenrocktourgp"
+	
+	3.	adb backup -noapk com.umusic.queenrocktourgp
+	Open device and selec "Back up my data" (dont put password)
+	
+	To extract the *.ab file
+	Go here and download: https://sourceforge.net/projects/adbextractor/
+	Extract the downloaded file and navigate to folder where you extracted. C:\Users\vinh.huynhtu\Downloads\android-backup-tookit\android-backup-extractor\android-backup-extractor-20180521-bin
+	run this with your own file names: java -jar abe.jar unpack backup.ab C:\Users\vinh.huynhtu\Newdata.tar
+
+	Using 7Zip to extract NewData.tar
+	- See the profile : apps\com.umusic.queenrocktourgp\sp\com.umusic.queenrocktourgp.v2.playerprefs
+	
+	
+XX/ Graph view
+	- https://github.com/alelievr/NodeGraphProcessor
+	- https://www.youtube.com/watch?v=7KHGH0fPL84
+	
+	
+XXI/ MLAPI Multiplayer
+- https://gamedevacademy.org/unity-mlapi-tutorial/
+- https://github.com/Unity-Technologies/com.unity.netcode.gameobjects
+
+- https://docs-multiplayer.unity3d.com/docs/migration/install/index.html
+- https://github.com/Unity-Technologies/com.unity.multiplayer.mlapi
+
+- https://www.nuget.org/packages/Ruffles
+- https://github.com/MidLevel/Ruffles
+
+interpolation
+prediction
+
+- https://docs-multiplayer.unity3d.com/docs/mlapi-api/MLAPI.SceneManagement.SceneSwitchProgress/
+// The callback invoked when the switch scene progress is completed. Either by all clients done loading the scene or by time out.
+    public void OnCompleted(bool timedOut)
+    {
+        Debug.Log("[MLAPI]server::Load scene OnCompleted");
+
+        // List of clientIds of those clients that is done loading the scene.
+        List<ulong> clientIdList = sceneSwitchProgress.DoneClients;
+        if(clientIdList.Count == MultiplayerManager.Instance.mPlayerInfos.Count || timedOut) // or ClientInfos.Count
+        {
+            // can start
+        }
+
+        // If all clients are done loading the scene, at the moment of completed.
+        bool allDone = sceneSwitchProgress.IsAllClientsDoneLoading;
+
+        // Is this scene switch progresses completed, all clients are done loading the scene or a timeout has occured.
+        bool completed = sceneSwitchProgress.IsCompleted;
+
+        // The NetworkTime time at the moment the scene switch was initiated by the server.
+        float time = sceneSwitchProgress.TimeAtInitiation;
+    }
+
+
+*** If we call aaaClientRpc too early(before or at the moment NetworkStart. It will be show error : Missing Profiler.EndSample (BeginSample and EndSample count must match): NetworkManager.InvokeRpc)
+
+!!! Dynamic network prefabs
+- Regist on client side
+    public void OnJoinedRoom()
+    {
+        // Client side
+        for(int i = 0; i < mPlayerInfos.Count; i++)
+        {
+            GameNetManager.Instance.RegistNetworkPrefab(mPlayerInfos[i]._charId, true);
+        }
+    }
+    public void RegistNetworkPrefab(string _charId, bool isPlayer)
+    {
+        Debug.Log("RegistNetworkPrefab : " + _charId);
+
+        string path = Define.RESOURCE_CHARACTERS + _charId;
+        bool found = false;
+        for(int v = 0; v < mNwManager.NetworkConfig.NetworkPrefabs.Count; ++v)
+        {
+            if(mNwManager.NetworkConfig.NetworkPrefabs[v].Prefab.name == _charId)
+            {
+                found = true;
+            }
+        }
+        if(!found)
+        {
+            ResourceRequest resource = Resources.LoadAsync<GameObject>(path);
+            GameObject go = resource.asset as GameObject;
+            MLAPI.Configuration.NetworkPrefab netPrefab = new MLAPI.Configuration.NetworkPrefab();
+            netPrefab.PlayerPrefab = isPlayer;
+            netPrefab.Prefab = go;
+            netPrefab.Prefab.name = _charId;
+            mNwManager.NetworkConfig.NetworkPrefabs.Add(netPrefab);
+
+            Debug.Log("Regist network prefab : " + _charId);
+        }
+    }
+
+- Equip from prefabs
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using MLAPI;
+using MLAPI.Messaging;
+using MLAPI.Spawning;
+
+public class CharacterContainer : NetworkBehaviour
+{
+    public GameObject netGameObject; // belong server
+    public GameObject _netGameObject; // belong client
+    Start is called before the first frame update
+    void Start()
+    {
+        _netGameObject = null;
+    }
+
+    [ServerRpc]
+    private void EquipServerRpc(ulong _OwnerClientId, string charID)
+    {
+        string path = Define.RESOURCE_CHARACTERS + charID;
+        Debug.Log("Client want to equit: " + path);
+        ResourceRequest resource = Resources.LoadAsync<GameObject>(path);
+        netGameObject = Instantiate(resource.asset as GameObject);
+        netGameObject.GetComponent<NetworkObject>().SpawnWithOwnership(_OwnerClientId);
+        netGameObject.transform.position = this.transform.position;
+        // netGameObject.transform.SetParent(this.transform);
+        ulong netObjectID = netGameObject.GetComponent<NetworkObject>().NetworkObjectId;
+        ActionPhraseManager.Instance.m_PlayerList.Add(netGameObject.GetComponentInChildren<PlayerController>());
+
+        foreach(ulong key in NetworkSpawnManager.SpawnedObjects.Keys)
+        {
+            Debug.Log("Server SpawnedObject: " + key);
+        }
+        Debug.Log("Server netObjectID: " + netObjectID);
+        EquipClientRpc(netObjectID);
+    }
+
+    [ClientRpc]
+    private void EquipClientRpc(ulong netObjectID)
+    {
+        Debug.Log("Client is equit netObjectID: " + netObjectID);
+        foreach(ulong key in NetworkSpawnManager.SpawnedObjects.Keys)
+        {
+            Debug.Log("Client SpawnedObject: " + key);
+        }
+
+        NetworkObject netObj = NetworkSpawnManager.SpawnedObjects[netObjectID];
+        ActionPhraseManager.Instance.m_PlayerList.Add(netObj.GetComponentInChildren<PlayerController>());
+        
+        // _netGameObject.transform.position = this.transform.position;
+        // _netGameObject.transform.SetParent(this.transform);
+    }
+
+    // Update is called once per frame
+    public override void NetworkStart()
+    {
+        base.NetworkStart();
+        if(IsLocalPlayer)
+        {
+            GameNetManager.Instance.RegistNetworkPrefab(ProfileMgr.Instance.GetCharID(), true);
+            EquipServerRpc(OwnerClientId, ProfileMgr.Instance.GetCharID());
+        }
+    }
+
+    public bool IsMeLocalPlayer()
+    {
+        return IsLocalPlayer;
+    }
+}
+
+- https://www.youtube.com/watch?v=iBM8Gg_Dzow
+- https://github.com/Unity-Technologies/com.unity.multiplayer.mlapi/issues/46
+- https://stackoverflow.com/questions/67491276/unity-mlapis-networkobject-changeowner-gives-keynotfoundexception
+
+
+XXII/ Save Folder
+Application.persistentDataPath
+/Users/sai-ithw/Library/Application Support/Gameloft/AAF/CTAAF
+
+PlayerPrefs.Save()
+https://docs.unity3d.com/530/Documentation/ScriptReference/PlayerPrefs.html
+Shift+Command+.
+/Users/sai-ithw/Library/Preferences/com.Gameloft.AAF.plist
+
+Application.dataPath
+https://docs.unity3d.com/ScriptReference/Application-dataPath.html
+
+Writing Debug.Log Statements to a file a super easy way in Unity
+https://www.youtube.com/watch?v=A12GhwUxTrY
+
+
+foreach(KeyCode kcode in Enum.GetValues(typeof(KeyCode)))
+{
+    if (Input.GetKey(kcode))
+        Debug.Log("KeyCode down: " + kcode);
+}
+
+
+
+*.a filter=lfs diff=lfs merge=lfs -text
+
+XXIII/ AR feature
+- ARKit requires iOS 11.0 or later and an iOS device with an A9 or later processor
+- If your app uses face-tracking AR: Face tracking requires the front-facing TrueDepth camera on iPhone X
+* Ref: https://developer.apple.com/documentation/arkit/verifying_device_support_and_user_permission?language=objc
+* https://forum.unity.com/threads/arfoundation-face-tracking-step-by-step.600313/#post-6048314
+public static bool IsFaceTrackingSupported() {
+    var descriptors = new List<XRFaceSubsystemDescriptor>();
+    SubsystemManager.GetSubsystemDescriptors(descriptors);
+    if (descriptors.Any()) {
+        var descriptor = descriptors.First();
+        Debug.Log("Face Tracking is supported, supportsEyeTracking: " + descriptor.supportsEyeTracking + ", supportsFacePose: " + descriptor.supportsFacePose + ", supportsFaceMeshNormals: " + descriptor.supportsFaceMeshNormals + ", supportsFaceMeshUVs: " + descriptor.supportsFaceMeshUVs + ", supportsFaceMeshVerticesAndIndices: " + descriptor.supportsFaceMeshVerticesAndIndices);
+        return true;
+    } else {
+        Debug.Log("Face Tracking is not supported.");
+        return false;
+    }
+}
+
+- Change Pass
+https://mug.gameloft.org/
+Happy.789
+
+XXIV/ Install app on MACOS
+- MACOS
+	open -n "/Users/sai-ithw/Documents/VinhHuynh/Projects/AAF_MACOS_Build/AAF.app"
+
+- Android
+	/Applications/Unity/Hub/Editor/2020.3.12f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb install /Users/sai-ithw/Documents/VinhHuynh/Projects/AAF_Android_Build/AFF.apk
+
+- iOS: should be use xCode
+
+
+XXV Git error
+
+đúng là do LFS, nhưng root cause là do 2 ng push file mới xen kẽ + sync cross remote repository
+
+Thứ tự push là:
+ - Hậu push version 1
+ - Vinh push version 2
+ - Vinh push version 3
+ - Vinh push version 4
+ - Hậu push version 5
+
+Ở bước push version 5, chắc chắn Hậu phải pull cái version 4 về local trước, lúc này git lfs sẽ fetch tất cả file của version 4. Nhưng những file lfs ở version 2, 3 thì ko fetch về.
+
+Nếu Hậu merge tiếp version 5 từ g4bteam repository qua storm repository (cross repository), thì lúc nào nó báo lỗi bị thiếu các file lfs ở version 2, 3.
+
+Cách fix là, Hậu cứ double click vô history ở version 2, rồi version 3, mục đích là để down các file lfs bị thiếu về local, rồi sau đó push lên storm sẽ thành công
+
+còn gọn thì dùng dòng lệnh:
+git lfs fetch --all
+
+từ alpha => beta, cùng repository, nó chỉ cần push file trong version 5 của Hậu
+
+beta => prelive, khác repository, nó cần push file từ version 2 + 3 + 4 + 5 luôn, nên thiếu sẽ báo lỗi
+
+
+XXVI Manage UNITY license
+GL account 
+	vinh.huynhtu@gameloft.com
+	Happy.789
+
+license key: SC-7D53-3VW3-J2DC-MK84-P5YS
+
+XXVII Websocket
+https://github.com/nenoNaninu/RxWebSocket
+https://github.com/sta/websocket-sharp
+https://github.com/pusher/pusher-websocket-unity
+https://github.com/jirihybek/unity-websocket-webgl
+https://github.com/Marfusios/websocket-client
+https://gamedev.stackexchange.com/questions/148975/websockets-server-for-unity3d
+https://www.patrykgalach.com/2019/11/11/implementing-websocket-in-unity/
+https://github.com/endel/NativeWebSocket
+https://docs.spring.io/spring-framework/docs/4.3.x/spring-framework-reference/html/websocket.html
+https://medium.com/unity-nodejs/websocket-client-server-unity-nodejs-e33604c6a006
+
+https://css-tricks.com/snippets/html/start-a-web-server-with-one-terminal-command-on-os-x/
+
+XXVIII batch script
+sudo sh ./startup.sh
+
+XXIX Source tree
+Sourcetree change password of existing account: 
+Go to Preferences ▶︎ Advanced menu and delete the hostname that you want to reset.
+After this, you can re-enter your username and password whenever needed (such as pulling from git).
+
+XXX/ CocoaPods
+https://stackoverflow.com/questions/39481636/updating-to-latest-version-of-cocoapods
+- First:
+sudo gem install cocoapods
+
+- Desp: type user mac password now your cocoapods will be replace with a stable version.
+You can find out where the CocoaPods gem is installed with:
+gem which cocoapods
+
+- if you have cloned the repo then type this command:
+pod repo update
+
+- close your xcode and run this command. Open project folder after build iOS in UNITY editor. Select  "Finder" -> "Services" -> "New Terminal at folder" or "New iTerm2 tab here"
+Pod install
+
+
+
+XXX Github issue
+
+- remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+ - https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to
+
+If you're using macOS, just simply follow these steps:
+Go to this link: https://github.com/settings/tokens (Profile -> settings -> developers setting -> personal access tokens). (don't go to repository setting; it's your profile setting)
+Generate a new token and copy-paste it somewhere safely.
+Now search for an app in your Mac, named Keychain Access.
+Search for github.com (if there are multiple GitHub logins then choose Kind: Internet password), double-click it.
+Click on show password, then enter your Mac's password and hit Enter.
+Password should be visible by now. Now, just paste the token you generated in step 2 and click Save changes.
+
+
+
+XXXI AssetBundle
+- https://docs.unity3d.com/Manual/AssetBundlesIntro.html
+
+- Note: The “AssetBundle Manager” was a tool used with older versions of Unity that helped streamline Asset management using AssetBundles. Starting with Unity version 2018.2, you should use the Addressable Assets package instead, as Unity has deprecated the AssetBundle Manager.
+
+- How to create AssetBundle:
+https://learn.unity.com/tutorial/introduction-to-asset-bundles#6028bab6edbc2a750bf5b8a4
+https://docs.unity3d.com/2019.3/Documentation/Manual/AssetBundles-Workflow.html
+
+public class CreateAssetBundles
+ {
+     static private BuildTarget[] supportedTargets = new BuildTarget[]
+     {
+         BuildTarget.iOS,
+         BuildTarget.StandaloneWindows,
+         BuildTarget.Android,
+     };
+     static private void BuildAssetBundle(BuildTarget target)
+     {
+         Debug.LogWarning("Building AssetBundles for target: " + target);
+         string assetBundleDirectory = "AssetBundles/"+target.ToString();
+         //if (!Directory.Exists(assetBundleDirectory))
+	if(!Directory.Exists(Application.streamingAssetsPath))
+         {
+             Directory.CreateDirectory(assetBundleDirectory);
+ 
+         }
+         BuildPipeline.BuildAssetBundles(assetBundleDirectory, BuildAssetBundleOptions.None, target);
+         Debug.LogWarning("Assetbundles built to dir: " + assetBundleDirectory);
+ 
+     }
+ 
+     [MenuItem("Assets/Build AssetBundles/Windows")]
+     static void BuildAssetBundlesWindows()
+     {
+             BuildAssetBundle(BuildTarget.StandaloneWindows);
+     }
+ 
+     [MenuItem("Assets/Build AssetBundles/All")]
+     static void BuildAssetBundlesAll()
+     {
+         foreach (BuildTarget target in supportedTargets)
+         {
+             BuildAssetBundle(target);
+         }
+     }
+ }
+
+
+https://docs.unity3d.com/2019.3/Documentation/Manual/AssetBundles-Dependencies.html
+- AssetBundle Dependencies -> common Assets
+
+
+- AssetBundles: Pink Shaders Problem in Unity:
+
+ When you extract common Assets to a single AssetBundle, be careful about dependencies. In particular, if you only use a Prefab to instantiate a module, the Materials do not load.
+
+-> To solve this problem, load the Materials AssetBundle in memory before you load the AssetBundle that belongs to the module. In the following example, this happens in the variable materialsAB.
+
+*** The editor can load shaders from asset bundles, if the bundles are built for the editor. It cannot load shaders that are built for Android in the Editor, they show up as pink. At the same time, make sure you are not ending up with shaders being duplicated across bundles, that will result in shaders failing to load. You can use the analysis rule for bundle dependencies for that.
+
+-> I seem to have found a hack to fix this.
+var materials = bundle.LoadAllAssets<Material>();
+            foreach(Material m in materials)
+            {
+                var shaderName = m.shader.name;
+                var newShader = Shader.Find(shaderName);
+                if(newShader != null)
+                {
+                    m.shader = newShader;
+                }
+                else
+                {
+                    Debug.LogWarning("unable to refresh shader: "+shaderName+" in material "+m.name);
+                }
+            }
+
+
+- The materials might appear pink only in the Editor. It should work fine in build.
+However, it can get pretty annoying to see pink color everywhere on the game screen. You can use the below script to fix this in Editor.
+https://stackoverflow.com/questions/70741369/unity-loadassetbundles-changes-material-into-pink-urp/70787000
+
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+#if UNITY_EDITOR
+    public static class AssetBundleEditorUtil
+    {
+        public static void FixShadersForEditor(GameObject prefab)
+        {
+            var renderers = prefab.GetComponentsInChildren<Renderer>(true);
+            foreach (var renderer in renderers)
+            {
+                ReplaceShaderForEditor(renderer.sharedMaterials);
+            }
+
+            var tmps = prefab.GetComponentsInChildren<TextMeshProUGUI>(true);
+            foreach (var tmp in tmps)
+            {
+                ReplaceShaderForEditor(tmp.material);
+                ReplaceShaderForEditor(tmp.materialForRendering);
+            }
+            
+            var spritesRenderers = prefab.GetComponentsInChildren<SpriteRenderer>(true);
+            foreach (var spriteRenderer in spritesRenderers)
+            {
+                ReplaceShaderForEditor(spriteRenderer.sharedMaterials);
+            }
+
+            var images = prefab.GetComponentsInChildren<Image>(true);
+            foreach (var image in images)
+            {
+                ReplaceShaderForEditor(image.material);
+            }
+            
+            var particleSystemRenderers = prefab.GetComponentsInChildren<ParticleSystemRenderer>(true);
+            foreach (var particleSystemRenderer in particleSystemRenderers)
+            {
+                ReplaceShaderForEditor(particleSystemRenderer.sharedMaterials);
+            }
+
+            var particles = prefab.GetComponentsInChildren<ParticleSystem>(true);
+            foreach (var particle in particles)
+            {
+                var renderer = particle.GetComponent<Renderer>();
+                if (renderer != null) ReplaceShaderForEditor(renderer.sharedMaterials);
+            }
+        }
+
+        public static void ReplaceShaderForEditor(Material[] materials)
+        {
+            for (int i = 0; i < materials.Length; i++)
+            {
+                ReplaceShaderForEditor(materials[i]);
+            }
+        }
+
+        public static void ReplaceShaderForEditor(Material material)
+        {
+            if (material == null) return;
+
+            var shaderName = material.shader.name;
+            var shader = Shader.Find(shaderName);
+
+            if (shader != null) material.shader = shader;
+        }
+    }
+#endif

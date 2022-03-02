@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+	html,body {
+		font-family: monospace;
+		background-color: #4B4E43;
+		height: 99%;
+
+	}
+	html, body {
+  font-size: 16px;
+  font-family: 'Press Start 2P', arial, sans-serif;
+}
+
+.scrim {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  display: none;
+}
+
+.scrim.open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.scrim h2 {
+  max-width: 80%;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.scrim svg {
+  width: 80%;
+  max-width: 600px;
+}
+
+.active {
+  fill: yellow;
+  stroke: yellow;
+}
+

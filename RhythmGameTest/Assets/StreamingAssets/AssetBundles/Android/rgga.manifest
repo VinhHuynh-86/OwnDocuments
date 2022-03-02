@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 739338818
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c638afa50e42ecb6d24b8149fd56379e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resources/Music/RGGA/DRUMS-RGGA.wav
+- Assets/Resources/Music/RGGA/GUITAR-RGGA.wav
+- Assets/Resources/Music/RGGA/OTHERS-RGGA.wav
+- Assets/Resources/Music/RGGA/VOCAL-RGGA.wav
+- Assets/Resources/Music/RGGA/BASS-RGGA.wav
+Dependencies: []

@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 2512481115
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2bd2ec522bbf4859ffca70cd8f927864
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Modules/Environment/Shared_Texture/Crowd_Var4.1_FINAL.tga
+- Assets/Modules/Environment/Shared_Assets/Textures/Freddie_Microphone_D.tga
+- Assets/Modules/Environment/Shared_Assets/Textures/Piano_Texture.tga
+- Assets/Modules/Environment/Shared_Texture/Crowd_Var3_FINAL.tga
+- Assets/Modules/Environment/Shared_Texture/Crowd_Var1_FINAL.tga
+- Assets/Modules/Environment/Shared_Texture/Crowd_Var1.1_FINAL.tga
+- Assets/Modules/Environment/Shared_Texture/Crowd_Var4_FINAL.tga
+- Assets/Modules/Environment/Shared_Texture/Crowd_Var2_FINAL.tga
+- Assets/Modules/Environment/Shared_Texture/Crowd_Var3.1_FINAL.tga
+- Assets/Modules/Environment/Shared_Assets/Textures/Gong.tga
+- Assets/Modules/Environment/Shared_Texture/Crowd_Var2.1_FINAL.tga
+Dependencies: []

@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 3317135812
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b94c2c7ca05940fc81a3a0456871e796
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resources/Music/WWRY/GUITAR-WWRY.wav
+- Assets/Resources/Music/WWRY/VOCAL-WWRY.wav
+- Assets/Resources/Music/WWRY/STOMP_CLAP-WWRY.wav
+Dependencies: []

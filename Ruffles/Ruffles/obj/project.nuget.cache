@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "sDNuWGwibBwKUqH11LCBEXpQW/2B9gxX3MtJkbvrs8/M7qY1lSLl5HGdKChZqZok1N06QXuwoB+5i6eKfzamGA==",
+  "success": true,
+  "projectFilePath": "/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/Ruffles.csproj",
+  "expectedPackageFiles": [
+    "/Users/sai-ithw/.nuget/packages/microsoft.netcore.app/2.0.0/microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "/Users/sai-ithw/.nuget/packages/microsoft.netcore.dotnetapphost/2.0.0/microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "/Users/sai-ithw/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.0.0/microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "/Users/sai-ithw/.nuget/packages/microsoft.netcore.dotnethostresolver/2.0.0/microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "/Users/sai-ithw/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/sai-ithw/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "/Users/sai-ithw/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/Users/sai-ithw/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

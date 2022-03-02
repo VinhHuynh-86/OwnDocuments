@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 4229356464
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b35a5db9574c31a6a09b835867f8e79a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 939e20ecac0e95a3f7c5cfb3e57acb1d
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Modules/Environment/stadium/Materials/pink 1.mat
+- Assets/Modules/Environment/stadium/Materials/Rio_Stage.mat
+- Assets/Modules/Environment/stadium/Materials/Speaker_Trimsheet_2.mat
+- Assets/Modules/Environment/stadium/Materials/StageRailing.mat
+- Assets/Modules/Environment/stadium/Materials/Stadiim_Structure.mat
+- Assets/Modules/Environment/stadium/Materials/ShadowCatcher.mat
+- Assets/Modules/Environment/stadium/Materials/Rio_TrimSheet.mat
+- Assets/Modules/Environment/stadium/Materials/Pink.mat
+- Assets/Modules/Environment/stadium/Materials/White2.mat
+- Assets/Modules/Environment/stadium/Materials/Emissive_Lights_RIO.mat
+- Assets/Modules/Environment/stadium/Materials/Speaker_Trimsheet_1.mat
+- Assets/Modules/Environment/stadium/Materials/Blue.mat
+- Assets/Modules/Environment/stadium/Materials/Ground.mat
+- Assets/Modules/Environment/stadium/Materials/Rio_LightPanel.mat
+- Assets/Modules/Environment/stadium/Materials/Floor.mat
+Dependencies: []

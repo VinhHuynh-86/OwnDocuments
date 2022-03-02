@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 308566be56fc5374798edcb429f9fed4, type: 3}
+  m_Name: RewardSprites
+  m_EditorClassIdentifier: 
+  listItemSprite:
+  - ID: ARCHIVE
+    sprite: {fileID: 21300000, guid: 8d841348ef52482429774d38d4c80dbe, type: 3}
+    spritePath: 
+  - ID: SONG
+    sprite: {fileID: 21300000, guid: afc9e9bd3d89e5f4faee8271040dd9b4, type: 3}
+    spritePath: 
+  - ID: COINS
+    sprite: {fileID: 21300000, guid: d6a4404a42ecf6d4f8a863413e84ff22, type: 3}
+    spritePath: 
+  - ID: VENUE
+    sprite: {fileID: 21300000, guid: 5d1764a285c910b4ebad44027f1dc0e0, type: 3}
+    spritePath: 
+  - ID: COSTUME
+    sprite: {fileID: 21300000, guid: d317cbb67eea7c2439f6605e836ac1a7, type: 3}
+    spritePath: 
+  - ID: SPECIAL_MOVE
+    sprite: {fileID: 21300000, guid: 141c7180499f9e44881b0fe7187ae074, type: 3}
+    spritePath: 

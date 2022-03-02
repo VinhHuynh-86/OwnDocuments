@@ -1,0 +1,9 @@
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/bin/Debug/net35/Ruffles.dll
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/bin/Debug/net35/Ruffles.pdb
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/obj/Debug/net35/Ruffles.csproj.AssemblyReference.cache
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/obj/Debug/net35/Ruffles.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/obj/Debug/net35/Ruffles.AssemblyInfoInputs.cache
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/obj/Debug/net35/Ruffles.AssemblyInfo.cs
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/obj/Debug/net35/Ruffles.csproj.CoreCompileInputs.cache
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/obj/Debug/net35/Ruffles.dll
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles/obj/Debug/net35/Ruffles.pdb

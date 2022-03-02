@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/sai-ithw/.dotnet/store/|arch|/|tfm|",
+      "/Users/sai-ithw/.nuget/packages"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/websocket-sharp-master/websocket-sharp/bin/Debug/websocket-sharp.dll
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/websocket-sharp-master/websocket-sharp/bin/Debug/websocket-sharp.pdb
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/websocket-sharp-master/websocket-sharp/obj/Debug/websocket-sharp.csproj.CoreCompileInputs.cache
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/websocket-sharp-master/websocket-sharp/obj/Debug/websocket-sharp.dll
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/websocket-sharp-master/websocket-sharp/obj/Debug/websocket-sharp.pdb
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/websocket-sharp-master/websocket-sharp/obj/Debug/websocket-sharp.csproj.AssemblyReference.cache

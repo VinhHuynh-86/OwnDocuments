@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 308566be56fc5374798edcb429f9fed4, type: 3}
+  m_Name: VenueSprites
+  m_EditorClassIdentifier: 
+  listItemSprite:
+  - ID: CV001
+    sprite: {fileID: 21300000, guid: 14246bf0b6450e44c8f59c7079db2efd, type: 3}
+  - ID: CV002
+    sprite: {fileID: 21300000, guid: eb887d7d52260a341a05f235bec74ef1, type: 3}
+  - ID: CV003
+    sprite: {fileID: 21300000, guid: 16cba4644a32d8042afe66849112f96a, type: 3}
+  - ID: CV004
+    sprite: {fileID: 21300000, guid: 27da061325722ab49ac5b68a23dbe25f, type: 3}
+  - ID: CV005
+    sprite: {fileID: 21300000, guid: 6d46ab19df13ab640853e1da66d4beaa, type: 3}
+  - ID: CV006
+    sprite: {fileID: 21300000, guid: 7c3ce92db34c149459b18213700a0d0e, type: 3}
+  - ID: CV007
+    sprite: {fileID: 21300000, guid: 6a04da1b343f96b48a062068365c10fd, type: 3}
+  - ID: CV008
+    sprite: {fileID: 21300000, guid: 337f6a8870fc4d34cb065e02cd3510fb, type: 3}
+  - ID: CV009
+    sprite: {fileID: 21300000, guid: d3d7809b16ba7c14599ff4ce4e16a1af, type: 3}
+  - ID: CV010
+    sprite: {fileID: 21300000, guid: 3a256dd49d79556439375edcc8b644bd, type: 3}

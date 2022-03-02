@@ -1,0 +1,275 @@
+{
+	"Tutorial": {
+        "export": "array_object",
+        "headerRow": 2,
+        "dataRowBegin": 3,
+        "languages": {		
+            "[eng]": "English.txt",
+            "[fre]": "French.txt",
+            "[ger]": "German.txt",
+            "[ind]": "Indonesian.txt",
+            "[ita]": "Italian.txt",
+            "[jap]": "Japanese.txt",
+            "[kor]": "Korean.txt",
+            "[por]": "Portuguese.txt",
+            "[rus]": "Russian.txt",
+            "[chi]": "ChineseSimplified.txt",
+            "[spa]": "Spanish.txt",
+            "[tha]": "Thai.txt",
+            "[zt]": "ChineseTraditional.txt",
+            "[tur]": "Turkish.txt"            
+        }
+    },
+    "HUB UI": {
+        "export": "array_object",
+        "headerRow": 2,
+        "dataRowBegin": 3,
+        "languages": {
+            "[eng]": "English.txt",
+            "[fre]": "French.txt",
+            "[ger]": "German.txt",
+            "[ind]": "Indonesian.txt",
+            "[ita]": "Italian.txt",
+            "[jap]": "Japanese.txt",
+            "[kor]": "Korean.txt",
+            "[por]": "Portuguese.txt",
+            "[rus]": "Russian.txt",
+            "[chi]": "ChineseSimplified.txt",
+            "[spa]": "Spanish.txt",
+            "[tha]": "Thai.txt",
+            "[zt]": "ChineseTraditional.txt",
+            "[tur]": "Turkish.txt" 
+        }
+    },
+	"Songs": {
+        "export": "array_object",
+        "headerRow": 2,
+        "dataRowBegin": 3,
+        "languages": {
+            "[eng]": "English.txt",
+            "[fre]": "French.txt",
+            "[ger]": "German.txt",
+            "[ind]": "Indonesian.txt",
+            "[ita]": "Italian.txt",
+            "[jap]": "Japanese.txt",
+            "[kor]": "Korean.txt",
+            "[por]": "Portuguese.txt",
+            "[rus]": "Russian.txt",
+            "[chi]": "ChineseSimplified.txt",
+            "[spa]": "Spanish.txt",
+            "[tha]": "Thai.txt",
+            "[zt]": "ChineseTraditional.txt",
+            "[tur]": "Turkish.txt" 
+        }
+    },
+	"Action Phase": {
+        "export": "array_object",
+        "headerRow": 2,
+        "dataRowBegin": 3,
+        "languages": {
+            "[eng]": "English.txt",
+            "[fre]": "French.txt",
+            "[ger]": "German.txt",
+            "[ind]": "Indonesian.txt",
+            "[ita]": "Italian.txt",
+            "[jap]": "Japanese.txt",
+            "[kor]": "Korean.txt",
+            "[por]": "Portuguese.txt",
+            "[rus]": "Russian.txt",
+            "[chi]": "ChineseSimplified.txt",
+            "[spa]": "Spanish.txt",
+            "[tha]": "Thai.txt",
+            "[zt]": "ChineseTraditional.txt",
+            "[tur]": "Turkish.txt" 
+        }
+    },
+	"Venue": {
+        "export": "array_object",
+        "headerRow": 2,
+        "dataRowBegin": 3,
+        "languages": {
+            "[eng]": "English.txt",
+            "[fre]": "French.txt",
+            "[ger]": "German.txt",
+            "[ind]": "Indonesian.txt",
+            "[ita]": "Italian.txt",
+            "[jap]": "Japanese.txt",
+            "[kor]": "Korean.txt",
+            "[por]": "Portuguese.txt",
+            "[rus]": "Russian.txt",
+            "[chi]": "ChineseSimplified.txt",
+            "[spa]": "Spanish.txt",
+            "[tha]": "Thai.txt",
+            "[zt]": "ChineseTraditional.txt",
+            "[tur]": "Turkish.txt" 
+        }
+    },
+	"Album": {
+        "export": "array_object",
+        "headerRow": 2,
+        "dataRowBegin": 3,
+        "languages": {
+            "[eng]": "English.txt",
+            "[fre]": "French.txt",
+            "[ger]": "German.txt",
+            "[ind]": "Indonesian.txt",
+            "[ita]": "Italian.txt",
+            "[jap]": "Japanese.txt",
+            "[kor]": "Korean.txt",
+            "[por]": "Portuguese.txt",
+            "[rus]": "Russian.txt",
+            "[chi]": "ChineseSimplified.txt",
+            "[spa]": "Spanish.txt",
+            "[tha]": "Thai.txt",
+            "[zt]": "ChineseTraditional.txt",
+            "[tur]": "Turkish.txt" 
+        }
+    },
+	"Archives": {
+        "export": "array_object",
+        "headerRow": 2,
+        "dataRowBegin": 3,
+        "languages": {
+            "[eng]": "English.txt",
+            "[fre]": "French.txt",
+            "[ger]": "German.txt",
+            "[ind]": "Indonesian.txt",
+            "[ita]": "Italian.txt",
+            "[jap]": "Japanese.txt",
+            "[kor]": "Korean.txt",
+            "[por]": "Portuguese.txt",
+            "[rus]": "Russian.txt",
+            "[chi]": "ChineseSimplified.txt",
+            "[spa]": "Spanish.txt",
+            "[tha]": "Thai.txt",
+            "[zt]": "ChineseTraditional.txt",
+            "[tur]": "Turkish.txt" 
+        }
+    },
+	"Rehearsal": {
+        "export": "array_object",
+        "headerRow": 2,
+        "dataRowBegin": 3,
+        "languages": {
+            "[eng]": "English.txt",
+            "[fre]": "French.txt",
+            "[ger]": "German.txt",
+            "[ind]": "Indonesian.txt",
+            "[ita]": "Italian.txt",
+            "[jap]": "Japanese.txt",
+            "[kor]": "Korean.txt",
+            "[por]": "Portuguese.txt",
+            "[rus]": "Russian.txt",
+            "[chi]": "ChineseSimplified.txt",
+            "[spa]": "Spanish.txt",
+            "[tha]": "Thai.txt",
+            "[zt]": "ChineseTraditional.txt",
+            "[tur]": "Turkish.txt" 
+        }
+    },
+	"Achievements": {
+        "export": "array_object",
+        "headerRow": 2,
+        "dataRowBegin": 3,
+        "languages": {
+            "[eng]": "English.txt",
+            "[fre]": "French.txt",
+            "[ger]": "German.txt",
+            "[ind]": "Indonesian.txt",
+            "[ita]": "Italian.txt",
+            "[jap]": "Japanese.txt",
+            "[kor]": "Korean.txt",
+            "[por]": "Portuguese.txt",
+            "[rus]": "Russian.txt",
+            "[chi]": "ChineseSimplified.txt",
+            "[spa]": "Spanish.txt",
+            "[tha]": "Thai.txt",
+            "[zt]": "ChineseTraditional.txt",
+            "[tur]": "Turkish.txt" 
+        }
+    },
+	"Settings": {
+        "export": "array_object",
+        "headerRow": 2,
+        "dataRowBegin": 3,
+        "languages": {
+            "[eng]": "English.txt",
+            "[fre]": "French.txt",
+            "[ger]": "German.txt",
+            "[ind]": "Indonesian.txt",
+            "[ita]": "Italian.txt",
+            "[jap]": "Japanese.txt",
+            "[kor]": "Korean.txt",
+            "[por]": "Portuguese.txt",
+            "[rus]": "Russian.txt",
+            "[chi]": "ChineseSimplified.txt",
+            "[spa]": "Spanish.txt",
+            "[tha]": "Thai.txt",
+            "[zt]": "ChineseTraditional.txt",
+            "[tur]": "Turkish.txt" 
+        }
+    },
+	"Other": {
+        "export": "array_object",
+        "headerRow": 2,
+        "dataRowBegin": 3,
+        "languages": {
+            "[eng]": "English.txt",
+            "[fre]": "French.txt",
+            "[ger]": "German.txt",
+            "[ind]": "Indonesian.txt",
+            "[ita]": "Italian.txt",
+            "[jap]": "Japanese.txt",
+            "[kor]": "Korean.txt",
+            "[por]": "Portuguese.txt",
+            "[rus]": "Russian.txt",
+            "[chi]": "ChineseSimplified.txt",
+            "[spa]": "Spanish.txt",
+            "[tha]": "Thai.txt",
+            "[zt]": "ChineseTraditional.txt",
+            "[tur]": "Turkish.txt"
+        }
+    },
+	"PN": {
+        "export": "array_object",
+        "headerRow": 2,
+        "dataRowBegin": 3,
+        "languages": {
+            "[eng]": "English.txt",
+            "[fre]": "French.txt",
+            "[ger]": "German.txt",
+            "[ind]": "Indonesian.txt",
+            "[ita]": "Italian.txt",
+            "[jap]": "Japanese.txt",
+            "[kor]": "Korean.txt",
+            "[por]": "Portuguese.txt",
+            "[rus]": "Russian.txt",
+            "[chi]": "ChineseSimplified.txt",
+            "[spa]": "Spanish.txt",
+            "[tha]": "Thai.txt",
+            "[zt]": "ChineseTraditional.txt",
+            "[tur]": "Turkish.txt"
+        }
+    },
+	"Credits": {
+        "export": "array_object",
+        "headerRow": 2,
+        "dataRowBegin": 3,
+        "languages": {
+            "[eng]": "English.txt",
+            "[fre]": "French.txt",
+            "[ger]": "German.txt",
+            "[ind]": "Indonesian.txt",
+            "[ita]": "Italian.txt",
+            "[jap]": "Japanese.txt",
+            "[kor]": "Korean.txt",
+            "[por]": "Portuguese.txt",
+            "[rus]": "Russian.txt",
+            "[chi]": "ChineseSimplified.txt",
+            "[spa]": "Spanish.txt",
+            "[tha]": "Thai.txt",
+            "[zt]": "ChineseTraditional.txt",
+            "[tur]": "Turkish.txt"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+/Users/sai-ithw/Documents/VinhHuynh/Referrences/websocket-sharp-master/Example1/obj/Debug/Example1.csproj.CoreCompileInputs.cache

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4c2d9ce944146ff90950f0f03051619, type: 3}
+  m_Name: _SoundyDatabase
+  m_EditorClassIdentifier: 
+  DatabaseNames:
+  - General
+  - Loop
+  - TapFail
+  SoundDatabases:
+  - {fileID: 11400000, guid: b450faf2092e58943b912a5d8c6542d7, type: 2}
+  - {fileID: 11400000, guid: cddcb4c557cbb2840aeb72c0371b56c9, type: 2}
+  - {fileID: 11400000, guid: 20e8eae571e611047bf36dcce3ac4ed4, type: 2}

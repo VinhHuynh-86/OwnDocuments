@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "92752086545",
+    "firebase_url": "https://battle-bug-3d-default-rtdb.firebaseio.com",
+    "project_id": "battle-bug-3d",
+    "storage_bucket": "battle-bug-3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92752086545:android:019303e79a1730b57e93b0",
+        "android_client_info": {
+          "package_name": "com.gamenotes.battle.bugs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92752086545-csuth1o5gon687qo6drenj3qa9gas940.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2STqFXxcmS1tSilgJ66LtiGtWepPnmJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92752086545-csuth1o5gon687qo6drenj3qa9gas940.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "92752086545-f9f6escldg1d5a8lkcm0742fpg9crg6r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gamenotes.battle.bugs"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

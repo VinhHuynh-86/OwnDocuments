@@ -1,0 +1,30 @@
+{
+	"Name": "UI",
+	"LookAtSheet": "UI",
+	"IndexInSheet": 0,
+	"Dir": "None",
+	"Def": {
+		"TitleStart": 0,
+		"TitleSize": 1,
+		"CellSize": 1
+	},
+	"Data": [{
+		"Name": "ID",
+		"Type": "TEXT",
+		"Titles": ["ID"],
+		"Mapping": null,
+		"Ignore": true
+	},
+	{
+		"Name": "English",
+		"Type": "TEXT",
+		"Titles": ["English"],
+		"Mapping": null
+	},
+	{
+		"Name": "French",
+		"Type": "TEXT",
+		"Titles": ["French"],
+		"Mapping": null
+	}]
+}

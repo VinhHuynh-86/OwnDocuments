@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1205358911
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: common_texture
+      Dependencies: {}
+    Info_1:
+      Name: stadium
+      Dependencies:
+        Dependency_0: stadium_materials
+    Info_2:
+      Name: rgga
+      Dependencies: {}
+    Info_3:
+      Name: wwry
+      Dependencies: {}
+    Info_4:
+      Name: stadium_materials
+      Dependencies: {}

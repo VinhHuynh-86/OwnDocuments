@@ -1,0 +1,1 @@
+open -n "/Users/sai-ithw/Documents/VinhHuynh/Projects/AAF_MACOS_Build/AAF_WS.app" --args -env local -timing 600 -one_match -ws

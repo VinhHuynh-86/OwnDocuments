@@ -1,0 +1,885 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9125000692167877113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_envelope_open
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_envelope_open
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: a03d77ac1f72d784aa6ea71816d2d666, type: 3}
+    Weight: 1
+--- !u!114 &-8796585440384743973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_claim_reward
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_claim_reward
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 2f602872c4553604b9dc091fe406ad8d, type: 3}
+    Weight: 1
+--- !u!114 &-8586110237917020876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_earn_disc_in_game
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_earn_disc_in_game
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: cfdf3515b8ed78a47bf55384a4018604, type: 3}
+    Weight: 1
+--- !u!114 &-7567899872605520075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_buy
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_buy
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 4a310e041c6a4114b814a8aec4da1c9b, type: 3}
+    Weight: 1
+--- !u!114 &-7034442605392169243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_gauge_full
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_gauge_full
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: caa0ae96f813409469473251020a7013, type: 3}
+    Weight: 1
+--- !u!114 &-5373448325577491950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_locked
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_locked
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: fa3a8f0e9c7436a4bbec99b0e58b8114, type: 3}
+    Weight: 1
+--- !u!114 &-4600576869532570968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_menu_back
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_menu_back
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 8eeb0e0bdcfb6f742b2fdfaa48940f92, type: 3}
+    Weight: 1
+--- !u!114 &-4206204867476421388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_rehearsal_amb_add_intro
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_rehearsal_amb_add_intro
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 02cea12a082a2004aa9b5f92773f2771, type: 3}
+    Weight: 1
+--- !u!114 &-3960262545763315275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_earn_disc_silver
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_earn_disc_silver
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 4d0a157e7e0c0b2438aa0bc5b00366cb, type: 3}
+    Weight: 1
+--- !u!114 &-3591398083993423624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_year_change
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_year_change
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: a7afac06069d02f4686c456f032a4844, type: 3}
+    Weight: 1
+--- !u!114 &-1621723410999823995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_unlock_tour
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_unlock_tour
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 678c22fa32d0cbb4ba25bf32982a166a, type: 3}
+    Weight: 1
+--- !u!114 &-854183759252228868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_new_reward_popup
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_new_reward_popup
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 77ca16088ae52994a9aef7cdbbae5ba1, type: 3}
+    Weight: 1
+--- !u!114 &-28443256695340648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_swipe_row_change
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_swipe_row_change
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 165ea319fa269ca41bb6a898c209c704, type: 3}
+    Weight: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b400ee936d64d0e93e3892c7c321e09, type: 3}
+  m_Name: SoundDatabase_General
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  OutputAudioMixerGroup: {fileID: 243778596830155478, guid: bc155dfdccec1be4780029a8bd542de5, type: 2}
+  SoundNames:
+  - No Sound
+  - No Sound
+  - sfx_crowd_cheer_end
+  - sfx_envelope_open
+  - sfx_envelope_receive
+  - sfx_fireworks
+  - sfx_mm_studio_door_open
+  - sfx_mm_studio_enter
+  - sfx_rehearsal_amb_add_intro
+  - sfx_swipe_row_change
+  - sfx_ui_buy
+  - sfx_ui_claim_reward
+  - sfx_ui_collect_coins
+  - sfx_ui_confirm_level
+  - sfx_ui_earn_disc_gold
+  - sfx_ui_earn_disc_in_game
+  - sfx_ui_earn_disc_platinum
+  - sfx_ui_earn_disc_silver
+  - sfx_ui_gauge_full
+  - sfx_ui_locked
+  - sfx_ui_menu_back
+  - sfx_ui_menu_scroll
+  - sfx_ui_menu_select
+  - sfx_ui_message_pop_up
+  - sfx_ui_new_achievement_popup
+  - sfx_ui_new_reward_popup
+  - sfx_ui_unlock_tour
+  - sfx_ui_unpause_321
+  - sfx_ui_year_change
+  Database:
+  - {fileID: 2648813992125285376}
+  - {fileID: 6192566697066522266}
+  - {fileID: -9125000692167877113}
+  - {fileID: 18274420746924117}
+  - {fileID: 3552160536202440059}
+  - {fileID: 2425013989097796380}
+  - {fileID: 6927380842245493446}
+  - {fileID: -4206204867476421388}
+  - {fileID: -28443256695340648}
+  - {fileID: -7567899872605520075}
+  - {fileID: -8796585440384743973}
+  - {fileID: 995114996468911623}
+  - {fileID: 6138922965289154069}
+  - {fileID: 510515904832201541}
+  - {fileID: -8586110237917020876}
+  - {fileID: 8051311983489342366}
+  - {fileID: -3960262545763315275}
+  - {fileID: -7034442605392169243}
+  - {fileID: -5373448325577491950}
+  - {fileID: -4600576869532570968}
+  - {fileID: 8938100215226434754}
+  - {fileID: 267046952051178424}
+  - {fileID: 1553326455136891263}
+  - {fileID: 3331644335146657375}
+  - {fileID: -854183759252228868}
+  - {fileID: -1621723410999823995}
+  - {fileID: 7734423514862494715}
+  - {fileID: -3591398083993423624}
+--- !u!114 &18274420746924117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_envelope_receive
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_envelope_receive
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 2284a5b61e0db2842977c67fb5ea2b78, type: 3}
+    Weight: 1
+--- !u!114 &267046952051178424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_menu_select
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_menu_select
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 730de1ddaaa8b6849a94ed0897949935, type: 3}
+    Weight: 1
+--- !u!114 &510515904832201541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_earn_disc_gold
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_earn_disc_gold
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: b3c8c29ae1c8cc24e8abd18b090b393d, type: 3}
+    Weight: 1
+--- !u!114 &995114996468911623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_collect_coins
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_collect_coins
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: e121854b5294af34fa1d0522eda4e2d0, type: 3}
+    Weight: 1
+--- !u!114 &1553326455136891263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_message_pop_up
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_message_pop_up
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: c6b17477713d7d146836b2f86d6561c8, type: 3}
+    Weight: 1
+--- !u!114 &2425013989097796380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_mm_studio_door_open
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_mm_studio_door_open
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 77e41807f5c9fb74eacffd7c8a706189, type: 3}
+    Weight: 1
+--- !u!114 &2648813992125285376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: No Sound
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: No Sound
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds: []
+--- !u!114 &3331644335146657375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_new_achievement_popup
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_new_achievement_popup
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: fdbf5d18f1b7fba4cb64d6eb5a1663b9, type: 3}
+    Weight: 1
+--- !u!114 &3552160536202440059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_fireworks
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_fireworks
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 8b5ff6b0ba82bc740934aa6da6feb941, type: 3}
+    Weight: 1
+--- !u!114 &6138922965289154069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_confirm_level
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_confirm_level
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: af3419a610f602243bf0b5354513dbef, type: 3}
+    Weight: 1
+--- !u!114 &6192566697066522266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_crowd_cheer_end
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_crowd_cheer_end
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 9cc5cc10bf73b63498f91e67e3ac61bf, type: 3}
+    Weight: 1
+--- !u!114 &6927380842245493446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_mm_studio_enter
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_mm_studio_enter
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 6d965d0dbe9f5a2409a56cc66e375152, type: 3}
+    Weight: 1
+--- !u!114 &7734423514862494715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_unpause_321
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_unpause_321
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 8a66d3f49797f5a49a359f0d1fb0ca94, type: 3}
+    Weight: 1
+--- !u!114 &8051311983489342366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_earn_disc_platinum
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_earn_disc_platinum
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 53600638fda7ccc44b0f64bd5c3119e8, type: 3}
+    Weight: 1
+--- !u!114 &8938100215226434754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_ui_menu_scroll
+  m_EditorClassIdentifier: 
+  DatabaseName: General
+  SoundName: sfx_ui_menu_scroll
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: f63bc8b4c6809a140acf9285e7508036, type: 3}
+    Weight: 1

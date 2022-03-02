@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6biY3qLZLJCa3evUd8HkaM5kCsW3sucT2LuL1Ty9pndGuyZ/hqcuEZofbbcR0HctJh3Bm9VcZj3vo13+BaOEog==",
+  "success": true,
+  "projectFilePath": "/Users/sai-ithw/Documents/VinhHuynh/Referrences/Ruffles/Ruffles.Tests/Ruffles.Tests.csproj",
+  "expectedPackageFiles": [
+    "/Users/sai-ithw/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/sai-ithw/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/sai-ithw/.nuget/packages/nunit/3.12.0/nunit.3.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}

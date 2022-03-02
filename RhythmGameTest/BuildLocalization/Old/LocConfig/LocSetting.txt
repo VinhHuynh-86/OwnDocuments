@@ -1,0 +1,5 @@
+./LocConfig/Settings/Localization.txt
+./LocConfig/Settings/FTUE.txt
+./LocConfig/Settings/UI.txt
+./LocConfig/Settings/Text_Variables.txt
+./LocConfig/Settings/Mini_Games.txt

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 308566be56fc5374798edcb429f9fed4, type: 3}
+  m_Name: LanguageSprites
+  m_EditorClassIdentifier: 
+  listItemSprite:
+  - ID: EN
+    sprite: {fileID: 21300000, guid: bacfe8f97b2aa6f4cb6c89e498752c73, type: 3}
+    spritePath: 
+  - ID: FR
+    sprite: {fileID: 21300000, guid: b2f297bee83c47943b09f7a5cee77f8f, type: 3}
+    spritePath: 
+  - ID: GE
+    sprite: {fileID: 21300000, guid: a278605d97ed5144b9220bfd021d0688, type: 3}
+    spritePath: 
+  - ID: IND
+    sprite: {fileID: 21300000, guid: dc42699a36ab66344ae0fb311f47fcff, type: 3}
+    spritePath: 
+  - ID: IT
+    sprite: {fileID: 21300000, guid: d751b344d59ccfa429542e6737069f0a, type: 3}
+    spritePath: 
+  - ID: JP
+    sprite: {fileID: 21300000, guid: b34f31c1bc5dc464fa9b9c85e33acaef, type: 3}
+    spritePath: 
+  - ID: KR
+    sprite: {fileID: 21300000, guid: e53fc76b55b4e6e488a1dc542fea3c2f, type: 3}
+    spritePath: 
+  - ID: PT
+    sprite: {fileID: 21300000, guid: 82529103968fef14183d5808a36507c6, type: 3}
+    spritePath: 
+  - ID: RU
+    sprite: {fileID: 21300000, guid: 7b2aa30f374a55549beb37d1908da356, type: 3}
+    spritePath: 
+  - ID: SC
+    sprite: {fileID: 21300000, guid: f5b61a8060d4e3841af9b4a09e59b351, type: 3}
+    spritePath: 
+  - ID: SP
+    sprite: {fileID: 21300000, guid: 10bd0a4d4eef3634aa8b111eed65a138, type: 3}
+    spritePath: 
+  - ID: TH
+    sprite: {fileID: 21300000, guid: f7ae2cee27266814ea81012db10b6644, type: 3}
+    spritePath: 
+  - ID: TC
+    sprite: {fileID: 21300000, guid: 89cd301207ab9f8459057aee4599ea00, type: 3}
+    spritePath: 
+  - ID: TUR
+    sprite: {fileID: 21300000, guid: b378729deed014e40b7f1b9aaac8c5ef, type: 3}
+    spritePath: 

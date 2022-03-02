@@ -1,0 +1,544 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9196580498108997365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_tap_fail_guitar_01
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: sfx_tap_fail_guitar_01
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 8e055283d40e9e74392d52271e3feda1, type: 3}
+    Weight: 1
+--- !u!114 &-9139502179640161085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_tap_fail_guitar_04
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: sfx_tap_fail_guitar_04
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 68738e2bfd714324b92ed50381e87914, type: 3}
+    Weight: 1
+--- !u!114 &-8683229745576813745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_tap_fail_vocal_01
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: sfx_tap_fail_vocal_01
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 878dabfc3b9177e4bb48e208847d419a, type: 3}
+    Weight: 1
+--- !u!114 &-6367045171940008139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_tap_fail_drums_04
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: sfx_tap_fail_drums_04
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: b2acdcbcb5e57cb4e9648dfcb0e2ee90, type: 3}
+    Weight: 1
+--- !u!114 &-5403372981817984565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_tap_fail_vocal_02
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: sfx_tap_fail_vocal_02
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 25c2c3756657de54589c3619413ed88b, type: 3}
+    Weight: 1
+--- !u!114 &-1918189385195627695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_tap_fail_guitar_03
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: sfx_tap_fail_guitar_03
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 39ad59b67ed7d7645b51a52039984061, type: 3}
+    Weight: 1
+--- !u!114 &-1202934293178781862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_tap_fail_vocal_04
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: sfx_tap_fail_vocal_04
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 54ab7ea5db76b5445a439518489e5282, type: 3}
+    Weight: 1
+--- !u!114 &-703206938554281242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_tap_fail_bass_04
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: sfx_tap_fail_bass_04
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 954e9709c7afc7847af80eca5f5b25ff, type: 3}
+    Weight: 1
+--- !u!114 &-232858929532063504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_tap_fail_guitar_02
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: sfx_tap_fail_guitar_02
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 317d0da677542994387195458a839e2e, type: 3}
+    Weight: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b400ee936d64d0e93e3892c7c321e09, type: 3}
+  m_Name: SoundDatabase_TapFail
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  OutputAudioMixerGroup: {fileID: 243778596830155478, guid: bc155dfdccec1be4780029a8bd542de5, type: 2}
+  SoundNames:
+  - No Sound
+  - No Sound
+  - sfx_tap_fail_bass_01
+  - sfx_tap_fail_bass_02
+  - sfx_tap_fail_bass_03
+  - sfx_tap_fail_bass_04
+  - sfx_tap_fail_drums_01
+  - sfx_tap_fail_drums_02
+  - sfx_tap_fail_drums_03
+  - sfx_tap_fail_drums_04
+  - sfx_tap_fail_guitar_01
+  - sfx_tap_fail_guitar_02
+  - sfx_tap_fail_guitar_03
+  - sfx_tap_fail_guitar_04
+  - sfx_tap_fail_vocal_01
+  - sfx_tap_fail_vocal_02
+  - sfx_tap_fail_vocal_03
+  - sfx_tap_fail_vocal_04
+  Database:
+  - {fileID: 1304014117083550471}
+  - {fileID: 2807945519326113581}
+  - {fileID: 6184751134780008111}
+  - {fileID: 1562886283657823660}
+  - {fileID: -703206938554281242}
+  - {fileID: 3556560141750096004}
+  - {fileID: 439025078906191145}
+  - {fileID: 4896899036898919018}
+  - {fileID: -6367045171940008139}
+  - {fileID: -9196580498108997365}
+  - {fileID: -232858929532063504}
+  - {fileID: -1918189385195627695}
+  - {fileID: -9139502179640161085}
+  - {fileID: -8683229745576813745}
+  - {fileID: -5403372981817984565}
+  - {fileID: 2540139041773448015}
+  - {fileID: -1202934293178781862}
+--- !u!114 &439025078906191145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_tap_fail_drums_02
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: sfx_tap_fail_drums_02
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 188315ca6171a8b40babbe532711c2af, type: 3}
+    Weight: 1
+--- !u!114 &1304014117083550471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: No Sound
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: No Sound
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds: []
+--- !u!114 &1562886283657823660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_tap_fail_bass_03
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: sfx_tap_fail_bass_03
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 4def968ccc469f24f8bbdfe330c9a5f8, type: 3}
+    Weight: 1
+--- !u!114 &2540139041773448015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_tap_fail_vocal_03
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: sfx_tap_fail_vocal_03
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 5d80afeffcc6946429bc146ea5c0133a, type: 3}
+    Weight: 1
+--- !u!114 &2807945519326113581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_tap_fail_bass_01
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: sfx_tap_fail_bass_01
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 3eed8abc732a30a448491e24e0cd4cb5, type: 3}
+    Weight: 1
+--- !u!114 &3556560141750096004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_tap_fail_drums_01
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: sfx_tap_fail_drums_01
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 4bc172a3febe2e54690cf390515e85fd, type: 3}
+    Weight: 1
+--- !u!114 &4896899036898919018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_tap_fail_drums_03
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: sfx_tap_fail_drums_03
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 8b5e7f32de17cac4ab0bdc361ff754ac, type: 3}
+    Weight: 1
+--- !u!114 &6184751134780008111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6c631d933489d4ca7328a2a5983e10, type: 3}
+  m_Name: sfx_tap_fail_bass_02
+  m_EditorClassIdentifier: 
+  DatabaseName: TapFail
+  SoundName: sfx_tap_fail_bass_02
+  IgnoreListenerPause: 1
+  Volume:
+    MinValue: 0
+    MaxValue: 0
+  Pitch:
+    MinValue: 0
+    MaxValue: 0
+  SpatialBlend: 0
+  Loop: 0
+  Mode: 0
+  ResetSequenceAfterInactiveTime: 0
+  SequenceResetTime: 5
+  Sounds:
+  - AudioClip: {fileID: 8300000, guid: 6a7476ad9bec05344bdf4ad9fbc262e4, type: 3}
+    Weight: 1
