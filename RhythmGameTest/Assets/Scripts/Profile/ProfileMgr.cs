@@ -52,7 +52,7 @@ public class Profiles
     public int structureVersion = 1;
     public int saveVersion = 0;
     public string userID = Define.NULL_VALUE;
-    public int Tutorial = (int)Define.TUTORIAL.DONE;
+    public int Tutorial = (int)Define.TUTORIAL.START;
     // public int Age = -1;
     public ProtectedInt32 Coin = new ProtectedInt32(200);
     public ProtectedInt32 Disc = new ProtectedInt32(0);

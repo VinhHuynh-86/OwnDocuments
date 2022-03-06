@@ -134,10 +134,10 @@ public class LoadAssetBundles : MonoBehaviour
 
         myLoadedCommonTextures = AssetBundle.LoadFromFile(Path.Combine(bundlePath, "common_texture"));
         string filePath = Path.Combine(bundlePath, venueName + "_materials");
-        var materialsAB = AssetBundle.LoadFromFile(filePath);
+        venueMaterials = AssetBundle.LoadFromFile(filePath);
 
         #if UNITY_EDITOR
-        Material[] materials = materialsAB.LoadAllAssets<Material>();
+        Material[] materials = venueMaterials.LoadAllAssets<Material>();
         foreach(Material m in materials)
             {
                 var shaderName = m.shader.name;
@@ -176,8 +176,11 @@ public class LoadAssetBundles : MonoBehaviour
 
     public void UnloadAllBundle()
     {
-        venueMaterials.Unload(true);
-        myLoadedCommonTextures.Unload(true);
+        if(venueMaterials)
+            venueMaterials.Unload(true);
+
+        if(myLoadedCommonTextures)
+            myLoadedCommonTextures.Unload(true);
 
     #if UNITY_EDITOR
         if(!this._useVueneFromEditor)

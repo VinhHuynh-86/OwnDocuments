@@ -215,7 +215,7 @@ public class ViewInit : MonoBehaviour
                 break;
 
             case INIT_STATE.TUTORIAL:                
-                Game.Instance.SetStadiumIndex(4); // Stadium Submit
+                Game.Instance.SetStadiumIndex(0);
                 Game.Instance.SetSelectedSongDifficultyInfo("SD000", 0, Define.GAME_MODE.EASY);
                 LoadingManager.Instance.StartLoadingToEnterAP();
                 UnloadInit();

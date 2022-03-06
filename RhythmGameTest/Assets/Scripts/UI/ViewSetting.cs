@@ -159,7 +159,7 @@ public class ViewSetting : MonoBehaviour
         btnTutorialBasic.interactable = false;
         TutorialManager.Instance.Tutorial = Define.TUTORIAL.BASIC_LOADING;
         Game.Instance.IsDemoTutorial = Define.TUTORIAL_TYPE.BASIC_TUTORIAL_REPLAY;
-        Game.Instance.SetStadiumIndex(4);
+        Game.Instance.SetStadiumIndex(0);
         Game.Instance.SetSelectedSongDifficultyInfo("SD000", 0, Define.GAME_MODE.EASY);
         LoadingManager.Instance.StartLoadingToEnterAP();
     }
@@ -170,7 +170,7 @@ public class ViewSetting : MonoBehaviour
         TutorialManager.Instance.Tutorial = Define.TUTORIAL.DONE;
         Game.Instance.IsDemoTutorial = Define.TUTORIAL_TYPE.ADVANCED_TUTORIAL_REPLAY;
         Game.Instance.SetStadiumIndex(0);
-        Game.Instance.SetSelectedSongDifficultyInfo("SD004", 1, Define.GAME_MODE.EASY);
+        Game.Instance.SetSelectedSongDifficultyInfo("SD000", 1, Define.GAME_MODE.EASY);
         LoadingManager.Instance.StartLoadingToEnterAP();
     }
 

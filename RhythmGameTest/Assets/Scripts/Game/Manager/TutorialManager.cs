@@ -374,6 +374,7 @@ public class TutorialManager : MonoBehaviour
                 break;
 
             case Define.TUTORIAL.DONE:
+                HideScenario();
                 SetHandLeftIdle();
                 SetHandRightIdle();
                 ProfileMgr.Instance.Tutorial = (int)state;
